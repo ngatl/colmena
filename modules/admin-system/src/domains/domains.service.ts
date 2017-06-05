@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core'
-
+import { Store } from '@ngrx/store'
+import { Observable } from 'rxjs/Observable'
 import { DomainApi } from '@colmena/admin-lb-sdk'
-
 import { UiDataGridService, FormService } from '@colmena/admin-ui'
+import 'rxjs/add/operator/map';
 
 @Injectable()
 export class DomainsService extends UiDataGridService {
@@ -30,12 +31,18 @@ export class DomainsService extends UiDataGridService {
     }),
   ]
 
+  public system$
+  public domains$
+
   constructor(
     public domainApi: DomainApi,
     public formService: FormService,
+    public store: Store<any>,
   ) {
     super()
     this.columns = this.tableColumns
+    this.system$ = this.store.select('system')
+    this.domains$ = this.system$.map((s) => s.domains)
   }
 
   getFormConfig() {
@@ -66,9 +73,9 @@ export class DomainsService extends UiDataGridService {
     this.domainApi
       .deleteById(item.id)
       .subscribe(
-        (success) => successCb(success),
-        (error) => errorCb(error),
-      )
+      (success) => successCb(success),
+      (error) => errorCb(error),
+    )
   }
 
 }

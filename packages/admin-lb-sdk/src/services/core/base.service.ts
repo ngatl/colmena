@@ -1,4 +1,3 @@
-/* tslint:disable */
 import { Injectable, Inject, Optional } from '@angular/core';
 import { Http, Headers, Request, RequestOptions } from '@angular/http';
 import { NgModule, ModuleWithProviders } from '@angular/core';
@@ -56,11 +55,11 @@ export abstract class BaseLoopBackApi {
    * extend this class and use this method to get RESTful communication.
    **/
   public request(
-    method      : string,
-    url         : string,
-    routeParams : any = {},
-    urlParams   : any = {},
-    postBody    : any = {}
+    method: string,
+    url: string,
+    routeParams: any = {},
+    urlParams: any = {},
+    postBody: any = {}
   ): Observable<any> {
     // Headers to be sent
     let headers: Headers = new Headers();
@@ -90,7 +89,7 @@ export abstract class BaseLoopBackApi {
     /**
     CODE BELOW WILL GENERATE THE FOLLOWING ISSUES:
     - https://github.com/mean-expert-official/loopback-sdk-builder/issues/356
-    - https://github.com/mean-expert-official/loopback-sdk-builder/issues/328 
+    - https://github.com/mean-expert-official/loopback-sdk-builder/issues/328
     if (urlParams.where) {
       headers.append('where', JSON.stringify(urlParams.where));
       delete urlParams.where;
@@ -99,12 +98,12 @@ export abstract class BaseLoopBackApi {
     this.searchParams.setJSON(urlParams);
     let request: Request = new Request(
       new RequestOptions({
-        headers : headers,
-        method  : method,
-        url     : url,
-        search  : Object.keys(urlParams).length > 0
-                ? this.searchParams.getURLSearchParams() : null,
-        body    : body ? JSON.stringify(body) : undefined
+        headers: headers,
+        method: method,
+        url: url,
+        search: Object.keys(urlParams).length > 0
+          ? this.searchParams.getURLSearchParams() : null,
+        body: body ? JSON.stringify(body) : undefined
       })
     );
     return this.http.request(request)
@@ -160,7 +159,7 @@ export abstract class BaseLoopBackApi {
       LoopBackConfig.getApiVersion(),
       this.model.getModelDefinition().plural
     ].join('/'), undefined, undefined, { data })
-    .map((datum: T[]) => datum.map((data: T) => this.model.factory(data)));
+      .map((datum: T[]) => datum.map((data: T) => this.model.factory(data)));
   }
   /**
    * @method findById
@@ -195,7 +194,7 @@ export abstract class BaseLoopBackApi {
       LoopBackConfig.getApiVersion(),
       this.model.getModelDefinition().plural
     ].join('/'), undefined, { filter }, undefined)
-    .map((datum: T[]) => datum.map((data: T) => this.model.factory(data)));
+      .map((datum: T[]) => datum.map((data: T) => this.model.factory(data)));
   }
   /**
    * @method exists
@@ -385,23 +384,23 @@ export abstract class BaseLoopBackApi {
    * @description
    * Generic createChangeStream method
    */
-  public createChangeStream(): Observable<any> {
-    let subject = new Subject();
-    if (typeof EventSource !== 'undefined') {
-      let emit   = (msg: any) => subject.next(JSON.parse(msg.data));
-      var source = new EventSource([
-        LoopBackConfig.getPath(),
-        LoopBackConfig.getApiVersion(),
-        this.model.getModelDefinition().plural,
-        'change-stream'
-      ].join('/'));
-      source.addEventListener('data', emit);
-      source.onerror = emit;
-    } else {
-      console.warn('SDK Builder: EventSource is not supported'); 
-    }
-    return subject.asObservable();
-  }
+  // public createChangeStream(): Observable<any> {
+  //   let subject = new Subject();
+  //   if (typeof EventSource !== 'undefined') {
+  //     let emit   = (msg: any) => subject.next(JSON.parse(msg.data));
+  //     var source = new EventSource([
+  //       LoopBackConfig.getPath(),
+  //       LoopBackConfig.getApiVersion(),
+  //       this.model.getModelDefinition().plural,
+  //       'change-stream'
+  //     ].join('/'));
+  //     source.addEventListener('data', emit);
+  //     source.onerror = emit;
+  //   } else {
+  //     console.warn('SDK Builder: EventSource is not supported');
+  //   }
+  //   return subject.asObservable();
+  // }
   /**
    * @method getModelName
    * @author Jonathan Casarrubias <t: johncasarrubias, gh: mean-expert-official>

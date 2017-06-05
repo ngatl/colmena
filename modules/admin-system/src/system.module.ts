@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { HttpModule } from '@angular/http'
 import { RouterModule } from '@angular/router'
-
+import { Store } from '@ngrx/store'
 import { ColmenaUiModule } from '@colmena/admin-ui'
 
-import { Store } from '@ngrx/store'
+import { SystemRoutes } from './system.routes'
+import { DomainResolver } from './state/resolvers'
 
 import { SystemDashboardComponent } from './system.component'
 import { DomainsComponent } from './domains/domains.component'
@@ -25,12 +26,12 @@ import { UsersService } from './users/users.service'
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    RouterModule,
     ColmenaUiModule,
+    RouterModule,
   ],
   declarations: [
     DomainsComponent,
-    DomainListComponent
+    DomainListComponent,
     DomainDetailComponent,
     SettingsComponent,
     UsersComponent,
@@ -41,6 +42,7 @@ import { UsersService } from './users/users.service'
     DomainsService,
     SettingsService,
     UsersService,
+    DomainResolver,
   ],
   exports: [
     SystemDashboardComponent,

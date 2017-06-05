@@ -1,15 +1,17 @@
 import { Injectable } from '@angular/core'
+import { Router, ActivatedRoute } from '@angular/router'
+import { Effect, Actions, toPayload } from '@ngrx/effects'
 import { Action } from '@ngrx/store'
-import { Effect, Actions } from '@ngrx/effects'
 import { Observable } from 'rxjs/Observable'
 import { of } from 'rxjs/observable/of'
 import { DomainApi, Domain } from '@colmena/admin-lb-sdk'
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/startWith';
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/toArray';
+import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/catch'
+import 'rxjs/add/operator/do'
+import 'rxjs/add/operator/startWith'
+import 'rxjs/add/operator/switchMap'
+import 'rxjs/add/operator/mergeMap'
+import 'rxjs/add/operator/toArray'
 
 import * as domain from '../actions/domain'
 
@@ -19,6 +21,8 @@ export class DomainEffects {
   constructor(
     private actions$: Actions,
     private domainApi: DomainApi,
+    private router: Router,
+    private route: ActivatedRoute,
   ) { }
 
   @Effect()
@@ -27,17 +31,17 @@ export class DomainEffects {
     .map((action: domain.CreateDomainAction) => action.payload)
     .mergeMap((item: Domain) =>
       this.domainApi.create(item)
-        .map(() => new domain.CreateDomainSuccessAction(item))
-        .catch(() => of(new domain.CreateDomainFailAction(item))))
+        .map((res: Domain) => new domain.CreateDomainSuccessAction(res))
+        .catch((err: any) => of(new domain.CreateDomainFailAction(err))))
 
   @Effect()
   readDomains$: Observable<Action> = this.actions$
     .ofType(domain.READ_DOMAINS)
     .map((action: domain.ReadDomainsAction) => action.payload)
-    .mergeMap((item: any) =>
+    .mergeMap((item: any = {}) =>
       this.domainApi.find(item)
-        .map(() => new domain.ReadDomainsSuccessAction(item))
-        .catch(() => of(new domain.ReadDomainsFailAction(item))))
+        .map((res: Domain[]) => new domain.ReadDomainsSuccessAction(res))
+        .catch((err: any) => of(new domain.ReadDomainsFailAction(err))))
 
   @Effect()
   updateDomain$: Observable<Action> = this.actions$

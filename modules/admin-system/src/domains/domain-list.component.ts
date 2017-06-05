@@ -20,7 +20,7 @@ import { DomainsService } from './domains.service'
 
     <ng-template #iconTemplate let-item="item">
       <div class="card-block" style="min-height: 200px">
-        <h6 style="text-decoration: underline; cursor: pointer;" (click)="handleAction({ type: 'view', payload: item })">
+        <h6 style="text-decoration: underline; cursor: pointer;" (click)="handleAction({ action: 'view', item: item })">
           <i class="icon-globe"></i> {{item.name}}
         </h6>
         <p class="text-muted" *ngIf="item.description">{{item.description}}</p>
@@ -61,6 +61,7 @@ export class DomainListComponent {
         break
       case 'edit':
         this.item = Object.assign({}, event.item)
+        this.store.dispatch(new domain.SelectDomainAction(this.item.id))
         this.router.navigate([this.item.id], { relativeTo: this.route })
         break
       case 'add':
@@ -85,7 +86,7 @@ export class DomainListComponent {
         this.uiService.alertQuestion(question, successCb, () => ({}))
         break
       default:
-        console.log('Unknown event action', event)
+        console.log('Unknown event type', event)
         break
     }
   }

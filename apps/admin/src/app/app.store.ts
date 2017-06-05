@@ -3,6 +3,7 @@ import { StoreModule } from '@ngrx/store'
 import { StoreDevtoolsModule } from '@ngrx/store-devtools'
 import { EffectsModule } from '@ngrx/effects'
 import { ActionReducer, combineReducers } from '@ngrx/store';
+import { RouterStoreModule } from '@ngrx/router-store'
 
 import * as app from './state'
 import * as auth from '@colmena/admin-auth'
@@ -32,6 +33,7 @@ export function colmenaReducer(state: any, action: any) {
 @NgModule({
   imports: [
     StoreModule.provideStore(colmenaReducer),
+    RouterStoreModule.connectRouter(),
     StoreDevtoolsModule.instrumentOnlyWithExtension(),
     EffectsModule.run(app.AppEffects),
     EffectsModule.run(auth.AuthEffects),

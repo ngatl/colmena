@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core'
+import { Component, ViewChild, OnInit } from '@angular/core'
 import { Router, ActivatedRoute } from '@angular/router'
 import { Store } from '@ngrx/store'
 
@@ -11,10 +11,7 @@ import { DomainsService } from './domains.service'
   selector: 'app-domains',
   template: `<router-outlet></router-outlet>`,
 })
-export class DomainsComponent {
-
-  public item: any = {}
-  public formConfig: any = {}
+export class DomainsComponent implements OnInit {
 
   constructor(
     public service: DomainsService,
@@ -23,14 +20,17 @@ export class DomainsComponent {
     private router: Router,
     private route: ActivatedRoute,
   ) {
+  }
 
+  ngOnInit() {
+    this.store.dispatch(new domain.ReadDomainsAction())
   }
 
   handleAction(event) {
-    switch (event.action) {
+    switch (event.type) {
 
       default:
-        console.log('Unknown event action', event)
+        console.log('Unknown event type', event)
         break
     }
   }

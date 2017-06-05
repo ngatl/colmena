@@ -2,9 +2,9 @@
   "name": "@colmena/module-admin-dashboard",
   "version": "0.0.0",
   "dependencies": {
-    "@colmena/module-admin-content": "0.0.0",
-    "@colmena/module-admin-system": "0.0.0",
-    "@colmena/admin-ui": "0.0.0"
+    "@colmena/module-admin-content": "*",
+    "@colmena/module-admin-system": "*",
+    "@colmena/admin-ui": "*"
   },
   "license": "MIT"
 }

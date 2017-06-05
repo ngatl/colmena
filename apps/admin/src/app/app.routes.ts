@@ -9,8 +9,8 @@ import { AuthRoutes } from '@colmena/admin-auth'
 import { ContentModuleRoutes } from '@colmena/module-admin-content'
 import { CoreModuleRoutes } from '@colmena/module-admin-core'
 import { DashboardModuleRoutes } from '@colmena/module-admin-dashboard'
-import { DevModuleRoutes  } from '@colmena/module-admin-dev'
-import { SystemModuleRoutes } from '@colmena/module-admin-system'
+import { DevModuleRoutes } from '@colmena/module-admin-dev'
+import { SystemRoutes } from '@colmena/module-admin-system'
 
 import { HasContentAccess, HasSystemAccess } from './app.guards'
 import { DomainResolver } from './app.resolvers'
@@ -42,7 +42,7 @@ const fullRoutes = [
   contentRoute,
   dashboardRoute,
   devRoute,
-  ...SystemModuleRoutes,
+  ...SystemRoutes
 ]
 
 const routes = [

@@ -1,4 +1,5 @@
 import { Action } from '@ngrx/store'
+import { Domain } from '@colmena/admin-lb-sdk'
 
 export const CREATE_DOMAIN = '[system] CreateDomain'
 export const CREATE_DOMAIN_SUCCESS = '[system] CreateDomainSuccess'
@@ -16,55 +17,72 @@ export const DELETE_DOMAIN = '[system] DeleteDomain'
 export const DELETE_DOMAIN_SUCCESS = '[system] DeleteDomainSuccess'
 export const DELETE_DOMAIN_FAIL = '[system] DeleteDomainFail'
 
+export const SELECT_DOMAIN = '[system] SelectDomain'
+export const SELECT_DOMAIN_SUCCESS = '[system] SelectDomainSuccess'
+export const SELECT_DOMAIN_FAIL = '[system] SelectDomainFail'
+
 export class CreateDomainAction implements Action {
-  type = CREATE_DOMAIN
+  readonly type = CREATE_DOMAIN
   constructor(public payload: any) { }
 }
 export class CreateDomainSuccessAction implements Action {
-  type = CREATE_DOMAIN_SUCCESS
-  constructor(public payload: any) { }
+  readonly type = CREATE_DOMAIN_SUCCESS
+  constructor(public payload: Domain) { }
 }
 export class CreateDomainFailAction implements Action {
-  type = CREATE_DOMAIN_FAIL
+  readonly type = CREATE_DOMAIN_FAIL
   constructor(public payload: any) { }
 }
 
 export class ReadDomainsAction implements Action {
-  type = READ_DOMAINS
-  constructor(public payload?: any) { }
+  readonly type = READ_DOMAINS
+  constructor(public payload: any = {}) { }
 }
 export class ReadDomainsSuccessAction implements Action {
-  type = READ_DOMAINS_SUCCESS
-  constructor(public payload: any) { }
+  readonly type = READ_DOMAINS_SUCCESS
+  constructor(public payload: Domain[]) { }
 }
 export class ReadDomainsFailAction implements Action {
-  type = READ_DOMAINS_FAIL
+  readonly type = READ_DOMAINS_FAIL
   constructor(public payload: any) { }
 }
 
 export class UpdateDomainAction implements Action {
-  type = UPDATE_DOMAIN
-  constructor(public payload: any) { }
+  readonly type = UPDATE_DOMAIN
+  constructor(public payload: Domain) { }
 }
 export class UpdateDomainSuccessAction implements Action {
-  type = UPDATE_DOMAIN_SUCCESS
-  constructor(public payload: any) { }
+  readonly type = UPDATE_DOMAIN_SUCCESS
+  constructor(public payload: Domain) { }
 }
 export class UpdateDomainFailAction implements Action {
-  type = UPDATE_DOMAIN_FAIL
+  readonly type = UPDATE_DOMAIN_FAIL
   constructor(public payload: any) { }
 }
 
 export class DeleteDomainAction implements Action {
-  type = DELETE_DOMAIN
+  readonly type = DELETE_DOMAIN
   constructor(public payload: any) { }
 }
 export class DeleteDomainSuccessAction implements Action {
-  type = DELETE_DOMAIN_SUCCESS
+  readonly type = DELETE_DOMAIN_SUCCESS
   constructor(public payload: any) { }
 }
 export class DeleteDomainFailAction implements Action {
-  type = DELETE_DOMAIN_FAIL
+  readonly type = DELETE_DOMAIN_FAIL
+  constructor(public payload: any) { }
+}
+
+export class SelectDomainAction implements Action {
+  readonly type = SELECT_DOMAIN
+  constructor(public payload: string) { }
+}
+export class SelectDomainSuccessAction implements Action {
+  readonly type = SELECT_DOMAIN_SUCCESS
+  constructor(public payload: any) { }
+}
+export class SelectDomainFailAction implements Action {
+  readonly type = SELECT_DOMAIN_FAIL
   constructor(public payload: any) { }
 }
 
@@ -81,3 +99,6 @@ export type Actions
   | DeleteDomainAction
   | DeleteDomainSuccessAction
   | DeleteDomainFailAction
+  | SelectDomainAction
+  | SelectDomainSuccessAction
+  | SelectDomainFailAction

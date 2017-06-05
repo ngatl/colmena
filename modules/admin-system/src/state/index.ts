@@ -7,11 +7,10 @@ import { EffectsModule } from '@ngrx/effects'
 import * as domain from './reducers/domain'
 import { DomainEffects } from './effects/domain'
 
-
 export interface State {
-  domains: domain.State;
-  settings: any[];
-  users: any[];
+  domains: domain.State
+  settings: any[]
+  users: any[]
 }
 
 const reducers = {
@@ -25,5 +24,5 @@ export function reducer(state: any, action: any) {
 }
 
 export const SystemEffects = [
-  EffectsModule.run(DomainEffects),
+  EffectsModule.run(DomainEffects)
 ]

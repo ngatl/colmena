@@ -17,9 +17,6 @@
       "@colmena/*": ["node_modules/@colmena/*"],
       "rxjs/*": ["node_modules/rxjs/*"],
       "ngx-bootstrap/*": ["node_modules/ngx-bootstrap/*"]
-    },
-    "typeRoots": [
-      "node_modules/@types"
-    ]
+    }
   }
 }

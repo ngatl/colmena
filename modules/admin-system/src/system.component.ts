@@ -1,6 +1,7 @@
 import { Component } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { Observable } from 'rxjs/Observable'
+import 'rxjs/add/operator/map';
 
 import * as domain from './state/actions/domain'
 
@@ -8,7 +9,7 @@ import * as domain from './state/actions/domain'
   selector: 'app-system-dashboard',
   template: `
     <div class="row">
-      <div class="col-md-3" *ngFor="let widget of (widgets | async)">
+      <div class="col-md-3" *ngFor="let widget of (widgets$ | async)">
         <ui-dashboard-icon
           [routerLink]="widget.link"
           [count]="widget.count"
@@ -30,14 +31,14 @@ import * as domain from './state/actions/domain'
 })
 export class SystemDashboardComponent {
 
-  public app: Observable<any>
-  public widgets: Observable<any>
+  public app$
+  public widgets$
 
   constructor(
     private store: Store<any>,
   ) {
-    this.store.dispatch(new domain.ReadDomainsAction())
-    this.app = this.store.select('app')
-    this.widgets = this.app.map(a => a.systemDashboard)
+    store.dispatch(new domain.ReadDomainsAction({}))
+    this.app$ = this.store.select('app')
+    this.widgets$ = this.app$.map(a => a.systemDashboard)
   }
 }

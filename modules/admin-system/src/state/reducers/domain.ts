@@ -2,24 +2,27 @@ import { VERSION } from '@angular/core'
 import { Domain } from '@colmena/admin-lb-sdk'
 import { sortBy } from 'lodash'
 import { Action, ActionReducer } from '@ngrx/store'
+import { Observable } from 'rxjs/Observable'
+import { createSelector } from 'reselect';
+import 'rxjs/add/operator/map';
 
 import * as domain from '../actions/domain'
 
 export interface State {
   ids: string[];
   entities: { [id: string]: Domain };
-  selectedIds: string[];
+  selectedId: string;
 }
 
 const initialState: State = {
   ids: [],
   entities: {},
-  selectedIds: [],
+  selectedId: null,
 }
 
 export function reducer(state = initialState, action: Action): State {
   switch (action.type) {
-    case 'READ_DOMAINS_SUCCESS':
+    case domain.READ_DOMAINS_SUCCESS:
       const domains = action.payload
       const newDomains = domains.filter(item => !state.entities[item.id])
       const newDomainIds = newDomains.map(item => item.id)
@@ -31,8 +34,15 @@ export function reducer(state = initialState, action: Action): State {
       return {
         ids: [...state.ids, ...newDomainIds],
         entities: Object.assign({}, state.entities, newDomainEntities),
-        selectedIds: state.selectedIds
+        selectedId: state.selectedId
       }
+    case domain.SELECT_DOMAIN: {
+      return {
+        ids: state.ids,
+        entities: state.entities,
+        selectedId: action.payload
+      }
+    }
     default:
       return state
   }
@@ -40,5 +50,5 @@ export function reducer(state = initialState, action: Action): State {
 
 export function getDomainById(id: string) {
   return (state$: Observable<any>) => state$
-    .select((s) => s.domains.entities[id])
+    .map((s) => s.domains.entities[id]);
 }
