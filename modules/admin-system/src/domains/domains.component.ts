@@ -23,7 +23,7 @@ export class DomainsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.store.dispatch(new domain.ReadDomainsAction())
+    this.store.dispatch(new domain.ReadDomainsAction({}))
   }
 
   handleAction(event) {

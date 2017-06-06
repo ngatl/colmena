@@ -3,8 +3,8 @@ import { Domain } from '@colmena/admin-lb-sdk'
 import { sortBy } from 'lodash'
 import { Action, ActionReducer } from '@ngrx/store'
 import { Observable } from 'rxjs/Observable'
-import { createSelector } from 'reselect';
-import 'rxjs/add/operator/map';
+import { createSelector } from 'reselect'
+import 'rxjs/add/operator/map'
 
 import * as domain from '../actions/domain'
 
@@ -12,12 +12,16 @@ export interface State {
   ids: string[];
   entities: { [id: string]: Domain };
   selectedId: string;
+  selectedEntity: Domain;
+  loaded: boolean;
 }
 
 const initialState: State = {
   ids: [],
   entities: {},
   selectedId: null,
+  selectedEntity: null,
+  loaded: false,
 }
 
 export function reducer(state = initialState, action: Action): State {
@@ -34,13 +38,18 @@ export function reducer(state = initialState, action: Action): State {
       return {
         ids: [...state.ids, ...newDomainIds],
         entities: Object.assign({}, state.entities, newDomainEntities),
-        selectedId: state.selectedId
+        selectedId: state.selectedId,
+        selectedEntity: state.selectedEntity,
+        loaded: true,
       }
     case domain.SELECT_DOMAIN: {
+      const selection = action.payload
       return {
         ids: state.ids,
         entities: state.entities,
-        selectedId: action.payload
+        selectedId: selection,
+        selectedEntity: state.entities[selection],
+        loaded: state.loaded,
       }
     }
     default:
@@ -48,7 +57,16 @@ export function reducer(state = initialState, action: Action): State {
   }
 }
 
-export function getDomainById(id: string) {
-  return (state$: Observable<any>) => state$
-    .map((s) => s.domains.entities[id]);
-}
+export const getEntities = (state: State) => state.entities
+
+export const getIds = (state: State) => state.ids
+
+export const getSelectedId = (state: State) => state.selectedId
+
+export const getSelected = createSelector(getEntities, getSelectedId, (ent, id) => {
+  return ent[id]
+})
+
+export const getAll = createSelector(getEntities, getIds, (entities, ids) => {
+  return ids.map(id => entities[id])
+})

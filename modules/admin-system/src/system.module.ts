@@ -7,7 +7,7 @@ import { Store } from '@ngrx/store'
 import { ColmenaUiModule } from '@colmena/admin-ui'
 
 import { SystemRoutes } from './system.routes'
-import { DomainResolver } from './state/resolvers'
+import { DomainExistsGuard } from './state/guards'
 
 import { SystemDashboardComponent } from './system.component'
 import { DomainsComponent } from './domains/domains.component'
@@ -42,7 +42,7 @@ import { UsersService } from './users/users.service'
     DomainsService,
     SettingsService,
     UsersService,
-    DomainResolver,
+    DomainExistsGuard,
   ],
   exports: [
     SystemDashboardComponent,

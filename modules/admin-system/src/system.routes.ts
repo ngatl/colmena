@@ -5,7 +5,7 @@ import { DomainsComponent, DomainListComponent, DomainDetailComponent } from './
 import { SettingsComponent } from './settings/settings.component'
 import { UsersComponent } from './users/users.component'
 
-import { DomainResolver } from './state/resolvers'
+import { DomainExistsGuard } from './state/guards'
 
 export const SystemRoutes: Routes = [{
   path: 'system',
@@ -19,8 +19,12 @@ export const SystemRoutes: Routes = [{
       component: DomainsComponent,
       data: { title: 'Domains' },
       children: [
+        {
+          path: ':id',
+          component: DomainDetailComponent,
+          canActivate: [DomainExistsGuard]
+        },
         { path: '', component: DomainListComponent },
-        { path: ':id', component: DomainDetailComponent, resolve: { domain: DomainResolver } }
       ]
     },
     { path: 'settings', component: SettingsComponent, data: { title: 'Settings' } },

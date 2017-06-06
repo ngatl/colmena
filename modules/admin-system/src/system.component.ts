@@ -37,7 +37,6 @@ export class SystemDashboardComponent {
   constructor(
     private store: Store<any>,
   ) {
-    store.dispatch(new domain.ReadDomainsAction({}))
     this.app$ = this.store.select('app')
     this.widgets$ = this.app$.map(a => a.systemDashboard)
   }

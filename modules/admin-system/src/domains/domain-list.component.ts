@@ -3,7 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router'
 import { Store } from '@ngrx/store'
 
 import { UiService } from '@colmena/admin-ui'
-import * as domain from '../state/actions/domain'
+import * as actions from '../state/actions'
 
 import { DomainsService } from './domains.service'
 
@@ -47,21 +47,15 @@ export class DomainListComponent {
     private route: ActivatedRoute,
   ) {
     this.formConfig = this.service.getFormConfig()
-
-  }
-
-  save(item): void {
-    this.store.dispatch(new domain.UpdateDomainAction(item))
   }
 
   handleAction(event) {
     switch (event.action) {
       case 'save':
-        this.save(event.item)
+        this.store.dispatch(new actions.UpdateDomainAction(event.item))
         break
       case 'edit':
         this.item = Object.assign({}, event.item)
-        this.store.dispatch(new domain.SelectDomainAction(this.item.id))
         this.router.navigate([this.item.id], { relativeTo: this.route })
         break
       case 'add':
