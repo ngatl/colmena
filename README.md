@@ -1,5 +1,12 @@
 ![](apps/admin/src/assets/logo.png?raw=true)
 
+<p align="center" class="mb-0">
+  <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" /></a>
+  <a href="https://colmena-slack.now.sh/"><img src="https://colmena-slack.now.sh/badge.svg" /></a>
+  <a href="#backers"><img src="https://opencollective.com/colmena/backers/badge.svg" /></a>
+  <a href="#sponsors"><img src="https://opencollective.com/colmena/sponsors/badge.svg" /></a>
+</p>
+
 #
 
 <h3 align="center">
@@ -8,16 +15,9 @@
 Free + Full Stack + Open Source + Rapid API Development
 ```
 
-</h3>
-
-<p align="center" class="mb-0">
-  <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" /></a>
-  <a href="https://colmena-slack.now.sh/"><img src="https://colmena-slack.now.sh/badge.svg" /></a>
-  <a href="#backers"><img src="https://opencollective.com/colmena/backers/badge.svg" /></a>
-  <a href="#sponsors"><img src="https://opencollective.com/colmena/sponsors/badge.svg" /></a>
-</p>
-
 > powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
+
+</h3>
 
 ## About
 
