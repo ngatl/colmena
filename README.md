@@ -18,7 +18,6 @@ Free + Full Stack + Open Source + Rapid API Development
 </p>
 
 > powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
->> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
 
 ## About
 
@@ -315,3 +314,5 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 <a href="https://opencollective.com/colmena/sponsor/27/website" target="_blank"><img src="https://opencollective.com/colmena/sponsor/27/avatar.svg"></a>
 <a href="https://opencollective.com/colmena/sponsor/28/website" target="_blank"><img src="https://opencollective.com/colmena/sponsor/28/avatar.svg"></a>
 <a href="https://opencollective.com/colmena/sponsor/29/website" target="_blank"><img src="https://opencollective.com/colmena/sponsor/29/avatar.svg"></a>
+
+> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
