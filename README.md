@@ -1,18 +1,15 @@
 ![](apps/admin/src/assets/logo.png?raw=true)
 
-***
-
 <h3 align="center">
 
 ``` javascript
 Free + Full Stack + Open Source + Rapid API Development
 ```
-
 </h3>
 
-<i><h3 align="center">Powered by <a href="https://loopback.io/">LoopBack</a> and <a href="https://angular.io/">Angular</a></h3></i>
+<h3 align="center"><i>Powered by <a href="https://loopback.io/">LoopBack</a> and <a href="https://angular.io/">Angular</a></i></h3>
 
-#
+##
 
 <p align="center" class="mb-0">
   <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" /></a>
