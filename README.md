@@ -1,15 +1,24 @@
 ![](apps/admin/src/assets/logo.png?raw=true)
 
-##
+***
 
-<p align="center">
+<h3 align="center">
+
+``` javascript
+Free + Full Stack + Open Source + Rapid API Development
+```
+
+</h3>
+
+<p align="center" class="mb-0">
   <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" /></a>
   <a href="https://colmena-slack.now.sh/"><img src="https://colmena-slack.now.sh/badge.svg" /></a>
   <a href="#backers"><img src="https://opencollective.com/colmena/backers/badge.svg" /></a>
   <a href="#sponsors"><img src="https://opencollective.com/colmena/sponsors/badge.svg" /></a>
 </p>
 
-> ### Free and Open Source, Full Stack API Dev Kit 
+#
+
 >> powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
 >>> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
 
