@@ -1,7 +1,5 @@
 ![](apps/admin/src/assets/logo.png?raw=true)
 
-***
-
 <h3 align="center">
 
 ``` javascript
@@ -19,8 +17,8 @@ Free + Full Stack + Open Source + Rapid API Development
 
 #
 
->> powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
->>> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
+> powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
+>> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
 
 ## About
 
