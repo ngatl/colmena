@@ -1,5 +1,7 @@
 ![](apps/admin/src/assets/logo.png?raw=true)
 
+#
+
 <h3 align="center">
 
 ``` javascript
@@ -14,8 +16,6 @@ Free + Full Stack + Open Source + Rapid API Development
   <a href="#backers"><img src="https://opencollective.com/colmena/backers/badge.svg" /></a>
   <a href="#sponsors"><img src="https://opencollective.com/colmena/sponsors/badge.svg" /></a>
 </p>
-
-#
 
 > powered by [LoopBack](https://loopback.io/) and [Angular](https://angular.io/)
 >> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
