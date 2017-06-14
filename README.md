@@ -2,11 +2,16 @@
 
 ##
 
+<p align="center">
+  <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square" /></a>
+  <a href="https://colmena-slack.now.sh/"><img src="https://colmena-slack.now.sh/badge.svg" /></a>
+  <a href="#backers"><img src="https://opencollective.com/colmena/backers/badge.svg" /></a>
+  <a href="#sponsors"><img src="https://opencollective.com/colmena/sponsors/badge.svg" /></a>
+</p>
+
 > Free and Open Source mobile backend powered by LoopBack and Angular
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors) [![](https://colmena-slack.now.sh/badge.svg)](https://colmena-slack.now.sh/) [![OpenCollective](https://opencollective.com/colmena/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/colmena/sponsors/badge.svg)](#sponsors)
-
-> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
+>> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
 
 ## About
 
