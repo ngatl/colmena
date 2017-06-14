@@ -10,7 +10,6 @@
 </p>
 
 > Free and Open Source mobile backend powered by LoopBack and Angular
-
 >> This project was formerly known as [Loopback Angular Admin](https://github.com/beeman/loopback-angular-admin).
 
 ## About
