@@ -22,6 +22,7 @@ export class AppEffects {
       moduleConfig.topLinks.forEach(payload => this.store.dispatch({ type: 'LAYOUT_HEADER_NAV', payload }))
       moduleConfig.sidebarLinks.forEach(payload => this.store.dispatch({ type: 'LAYOUT_SIDEBAR_NAV', payload }))
 
+      moduleConfig.dashboardLinks = moduleConfig.dashboardLinks || {}
       if (moduleConfig.dashboardLinks.content) {
         moduleConfig.dashboardLinks.content.forEach(payload => this.store.dispatch({ type: 'APP_CONTENT_DASHBOARD', payload }))
       }

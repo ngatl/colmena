@@ -51,6 +51,7 @@
     "@colmena/module-admin-dev": "0.0.0",
     "@colmena/module-admin-storage": "0.0.0",
     "@colmena/module-admin-system": "0.0.0",
+    "@ngatl/module-admin-conference": "0.0.0",
     "core-js": "2.4.1",
     "rxjs": "5.4.1",
     "zone.js": "0.8.12"
