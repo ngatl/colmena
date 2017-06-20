@@ -1,0 +1,9 @@
+{
+  "name": "@ngatl/module-admin-conference",
+  "version": "0.0.0",
+  "dependencies": {
+    "@colmena/admin-lb-sdk": "0.0.0",
+    "@colmena/admin-ui": "0.0.0"
+  },
+  "license": "MIT"
+}
