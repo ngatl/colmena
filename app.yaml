@@ -1,0 +1,7 @@
+runtime: custom
+env: flex
+
+env_variables:
+  API_BASE_URL: https://colmenacms.appspot.com
+  API_HOST: 0.0.0.0
+  INITDB: true
