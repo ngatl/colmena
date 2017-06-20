@@ -1,0 +1,37 @@
+{
+  "name": "@ngatl/module-api-conference",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {},
+  "colmena": {
+    "module": {
+      "modelSources": [
+        "common/models"
+      ],
+      "models": {
+        "ConferenceBaseModel": {
+          "dataSource": "db",
+          "public": false
+        },
+        "ConferenceEvent": {
+          "dataSource": "db"
+        },
+        "ConferenceLocation": {
+          "dataSource": "db"
+        },
+        "ConferenceSpeaker": {
+          "dataSource": "db"
+        },
+        "ConferenceSponsor": {
+          "dataSource": "db"
+        }
+      },
+      "sampleData": [
+        "sample-data/events.json",
+        "sample-data/locations.json",
+        "sample-data/speakers.json",
+        "sample-data/sponsors.json"
+      ]
+    }
+  }
+}

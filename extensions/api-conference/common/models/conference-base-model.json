@@ -1,0 +1,15 @@
+{
+  "name": "ConferenceBaseModel",
+  "plural": "ConferenceBaseModel",
+  "base": "SystemBaseModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {},
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

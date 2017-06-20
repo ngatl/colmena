@@ -1,0 +1,49 @@
+{
+  "ConferenceSpeaker": [
+    {
+      "name": "April Wensel",
+      "imageUrl": "https://pbs.twimg.com/profile_images/765309835445350404/PkyGpGVU.jpg",
+      "twitter": "aprilwensel"
+    },
+    {
+      "name": "Ayşegül Yönet",
+      "imageUrl": "https://pbs.twimg.com/profile_images/700910026072788992/JptwMGva.jpg",
+      "twitter": "AysSomething"
+    },
+    {
+      "name": "Carmen Popoviciu",
+      "imageUrl": "https://pbs.twimg.com/profile_images/734378184918073348/j3bsV9Xk.jpg",
+      "twitter": "CarmenPopoviciu"
+    },
+    {
+      "name": "Mike Brocchi",
+      "imageUrl": "https://pbs.twimg.com/profile_images/862142599548850176/e-moaKuq.jpg",
+      "twitter": "Brocco"
+    },
+    {
+      "name": "PatrickJS",
+      "imageUrl": "https://pbs.twimg.com/profile_images/812595124093874176/QmrpKncp.jpg",
+      "twitter": "gdi2290"
+    },
+    {
+      "name": "Sherry List",
+      "imageUrl": "https://pbs.twimg.com/profile_images/719254379623223296/z-UttNAX.jpg",
+      "twitter": "sherrrylst"
+    },
+    {
+      "name": "Tara Z. Manicsic",
+      "imageUrl": "https://pbs.twimg.com/profile_images/804714552101257216/zGh5YASm.jpg",
+      "twitter": "Tzmanics"
+    },
+    {
+      "name": "Tracy Lee",
+      "imageUrl": "https://pbs.twimg.com/profile_images/821783522427834369/SOIW4xGP.jpg",
+      "twitter": "ladyleet"
+    },
+    {
+      "name": "Vanessa Yuenn",
+      "imageUrl": "https://pbs.twimg.com/profile_images/727130550524366848/kVZ-NWR6.jpg",
+      "twitter": "vanessayuenn"
+    }
+  ]
+}

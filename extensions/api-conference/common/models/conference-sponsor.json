@@ -1,0 +1,29 @@
+{
+  "name": "ConferenceSponsor",
+  "plural": "ConferenceSponsors",
+  "description": "Conference: Manage Sponsors in a Domain",
+  "base": "ConferenceBaseModel",
+  "idInjection": true,
+  "forceId": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    }
+  }
+}

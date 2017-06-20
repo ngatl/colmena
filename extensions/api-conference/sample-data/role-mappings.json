@@ -1,0 +1,20 @@
+{
+  "SystemRoleMapping": [
+    {
+      "roleId": "conference-admin",
+      "principalId": "admin",
+      "principalType": "USER"
+    },
+    {
+      "roleId": "conference-admin",
+      "principalId": "manager",
+      "principalType": "USER"
+    },
+    {
+      "roleId": "conference-speaker",
+      "principalId": "user",
+      "principalType": "USER"
+    }
+  ]
+
+}

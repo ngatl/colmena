@@ -1,0 +1,45 @@
+{
+  "name": "ConferenceLocation",
+  "plural": "ConferenceLocations",
+  "description": "Conference: Manage Locations in a Domain",
+  "base": "ConferenceBaseModel",
+  "idInjection": true,
+  "forceId": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "required": true
+    },
+    "domainId": {
+      "type": "String",
+      "required": false
+    },
+    "storageFileId": {
+      "type": "String"
+    },
+    "title": {
+      "type": "String",
+      "required": false
+    },
+    "Conference": {
+      "type": "String",
+      "required": false
+    },
+    "userId": {
+      "type": "Number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "file": {
+      "type": "belongsTo",
+      "model": "StorageFile"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

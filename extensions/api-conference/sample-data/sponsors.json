@@ -1,0 +1,16 @@
+{
+  "ConferenceSponsor": [
+    {
+      "name": "IBM",
+      "level": "platinum"
+    },
+    {
+      "name": "Microsoft",
+      "level": "gold"
+    },
+    {
+      "name": "StrongLoop",
+      "level": "silver"
+    }
+  ]
+}

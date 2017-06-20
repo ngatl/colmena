@@ -1,0 +1,12 @@
+{
+  "SystemRole": [
+    {
+      "id": "conference-admin",
+      "name": "conference-admin"
+    },
+    {
+      "id": "conference-speaker",
+      "name": "conference-speaker"
+    }
+  ]
+}

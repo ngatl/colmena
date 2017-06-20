@@ -1,0 +1,51 @@
+{
+  "name": "ConferenceSpeaker",
+  "plural": "ConferenceSpeakers",
+  "description": "Conference: Manage Speakers in a Domain",
+  "base": "ConferenceBaseModel",
+  "idInjection": true,
+  "forceId": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "stackoverflow": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "file": {
+      "type": "belongsTo",
+      "model": "StorageFile"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
