@@ -14,6 +14,7 @@ colmena:
     '@colmena/module-api-content': true
     '@colmena/module-api-storage': true
     '@colmena/module-api-system': true
+    '@ngatl/module-api-conference': true
 
 mongodb:
   url: false
