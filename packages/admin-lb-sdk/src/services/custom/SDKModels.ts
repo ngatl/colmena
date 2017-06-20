@@ -11,6 +11,10 @@ import { StorageFile } from '../../models/StorageFile';
 import { SystemDomain } from '../../models/SystemDomain';
 import { SystemSetting } from '../../models/SystemSetting';
 import { SystemUser } from '../../models/SystemUser';
+import { ConferenceEvent } from '../../models/ConferenceEvent';
+import { ConferenceLocation } from '../../models/ConferenceLocation';
+import { ConferenceSpeaker } from '../../models/ConferenceSpeaker';
+import { ConferenceSponsor } from '../../models/ConferenceSponsor';
 import { Ping } from '../../models/Ping';
 import { Meta } from '../../models/Meta';
 
@@ -31,6 +35,10 @@ export class SDKModels {
     SystemDomain: SystemDomain,
     SystemSetting: SystemSetting,
     SystemUser: SystemUser,
+    ConferenceEvent: ConferenceEvent,
+    ConferenceLocation: ConferenceLocation,
+    ConferenceSpeaker: ConferenceSpeaker,
+    ConferenceSponsor: ConferenceSponsor,
     Ping: Ping,
     Meta: Meta,
     

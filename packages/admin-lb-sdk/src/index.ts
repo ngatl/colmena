@@ -59,6 +59,10 @@ import { StorageFileApi } from './services/custom/StorageFile';
 import { SystemDomainApi } from './services/custom/SystemDomain';
 import { SystemSettingApi } from './services/custom/SystemSetting';
 import { SystemUserApi } from './services/custom/SystemUser';
+import { ConferenceEventApi } from './services/custom/ConferenceEvent';
+import { ConferenceLocationApi } from './services/custom/ConferenceLocation';
+import { ConferenceSpeakerApi } from './services/custom/ConferenceSpeaker';
+import { ConferenceSponsorApi } from './services/custom/ConferenceSponsor';
 import { PingApi } from './services/custom/Ping';
 import { MetaApi } from './services/custom/Meta';
 /**
@@ -103,6 +107,10 @@ export class SDKBrowserModule {
         SystemDomainApi,
         SystemSettingApi,
         SystemUserApi,
+        ConferenceEventApi,
+        ConferenceLocationApi,
+        ConferenceSpeakerApi,
+        ConferenceSponsorApi,
         PingApi,
         MetaApi,
         internalStorageProvider,
