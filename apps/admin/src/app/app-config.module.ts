@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core'
 
-// Colmena Modules
 import { AuthConfigModule } from '@colmena/module-admin-auth'
 import { ContentConfigModule } from '@colmena/module-admin-content'
 import { DashboardConfigModule } from '@colmena/module-admin-dashboard'
@@ -9,13 +8,8 @@ import { DevConfigModule } from '@colmena/module-admin-dev'
 import { StorageConfigModule } from '@colmena/module-admin-storage'
 import { SystemConfigModule } from '@colmena/module-admin-system'
 
-// Custom Modules
-// import { StarterConfigModule } from '@colmena/module-admin-starter'
-import { ConferenceConfigModule } from '@ngatl/module-admin-conference'
-
 @NgModule({
   imports: [
-    // Colmena Modules
     AuthConfigModule,
     ContentConfigModule,
     DashboardConfigModule,
@@ -23,10 +17,6 @@ import { ConferenceConfigModule } from '@ngatl/module-admin-conference'
     DevConfigModule,
     StorageConfigModule,
     SystemConfigModule,
-
-    // Custom Modules
-    // StarterConfigModule
-    ConferenceConfigModule
   ],
 })
 export class AppConfigModule {}

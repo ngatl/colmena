@@ -5,6 +5,7 @@ FROM colmena/dev:latest
 COPY . .
 
 # Remove any local configuration settings
+RUN touch /app/apps/api/config/local.yaml
 RUN rm /app/apps/api/config/local*
 
 # Clean up any node_modules we copied over
@@ -22,9 +23,10 @@ RUN npm run build
 # Expose the listening port
 EXPOSE 3000
 
-ENV API_HOST "0.0.0.0"
-ENV API_BASE_URL "/"
-ENV STORAGE_PATH "/tmp/storage"
+ENV API_PORT 3000
+ENV API_HOST 0.0.0.0
+ENV API_BASE_URL /
+ENV STORAGE_PATH /tmp/storage
 
 # Start the server
 CMD ["pm2-docker", "start", "npm", "--", "start"]
