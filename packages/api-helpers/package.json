@@ -1,13 +1,17 @@
 {
   "name": "@colmena/api-helpers",
-  "version": "0.0.0",
-  "mail": "index.js",
-  "private": false,
+  "version": "0.1.0",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@colmena/logger": "0.0.0",
+    "@colmena/logger": "0.1.0",
     "config": "1.26.1",
     "debug": "2.6.8",
     "parent-require": "1.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Bram Borggreve <bram@colmena.io> (https://github.com/beeman) (https://twitter.com/beeman_nl)",
+  "url": "https://github.com/colmena/colmena"
 }

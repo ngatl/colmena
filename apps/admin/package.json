@@ -1,10 +1,12 @@
 {
   "name": "@colmena/admin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Colmena Admin",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
-  "author": "Bram Borggreve <bram@colmena.io>",
+  "author": "Bram Borggreve <bram@colmena.io> (https://github.com/beeman) (https://twitter.com/beeman_nl)",
   "url": "https://github.com/colmena/colmena",
   "homepage": "https://github.com/colmena/colmena",
   "repository": {
@@ -32,6 +34,7 @@
     "test": "ng test"
   },
   "dependencies": {
+    "@ngatl/module-admin-conference": "0.0.0",
     "@angular/animations": "4.2.3",
     "@angular/common": "4.2.3",
     "@angular/compiler": "4.2.3",
@@ -41,17 +44,16 @@
     "@angular/platform-browser": "4.2.3",
     "@angular/platform-browser-dynamic": "4.2.3",
     "@angular/router": "4.2.3",
-    "@colmena/admin-layout": "0.0.0",
-    "@colmena/admin-lb-sdk": "0.0.0",
-    "@colmena/admin-ui": "0.0.0",
-    "@colmena/module-admin-auth": "0.0.0",
-    "@colmena/module-admin-data-browser": "0.0.0",
-    "@colmena/module-admin-content": "0.0.0",
-    "@colmena/module-admin-dashboard": "0.0.0",
-    "@colmena/module-admin-dev": "0.0.0",
-    "@colmena/module-admin-storage": "0.0.0",
-    "@colmena/module-admin-system": "0.0.0",
-    "@ngatl/module-admin-conference": "0.0.0",
+    "@colmena/admin-layout": "0.1.0",
+    "@colmena/admin-lb-sdk": "0.1.0",
+    "@colmena/admin-ui": "0.1.0",
+    "@colmena/module-admin-auth": "0.1.0",
+    "@colmena/module-admin-content": "0.1.0",
+    "@colmena/module-admin-dashboard": "0.1.0",
+    "@colmena/module-admin-data-browser": "0.1.0",
+    "@colmena/module-admin-dev": "0.1.0",
+    "@colmena/module-admin-storage": "0.1.0",
+    "@colmena/module-admin-system": "0.1.0",
     "core-js": "2.4.1",
     "rxjs": "5.4.1",
     "zone.js": "0.8.12"
