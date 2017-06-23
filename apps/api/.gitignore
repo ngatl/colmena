@@ -22,3 +22,4 @@ config/local*
 config/production*
 storage/*
 client/*
+app.yaml
