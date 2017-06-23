@@ -50,6 +50,8 @@
     "servers:start": "docker-compose -f docker-compose.servers.yml up -d",
     "servers:stop": "docker-compose -f docker-compose.servers.yml stop",
     "servers:rm": "npm run servers:stop && docker-compose rm -f",
+    "upstream:sync": "git checkout upstream; git fetch upstream && git reset --hard upstream/develop && git push; git checkout -",
+    "upstream:merge": "git merge upstream/develop",
     "lint": "eslint . --fix",
     "postinstall": "lerna bootstrap",
     "sdk": "npm run sdk:api",
