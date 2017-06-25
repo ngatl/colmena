@@ -16,6 +16,8 @@ colmena:
     '@colmena/module-api-system': true
     '@ngatl/module-api-conference': true
 
+hideBootWarning: false
+
 mongodb:
   url: false
 
