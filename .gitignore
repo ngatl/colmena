@@ -1,4 +1,5 @@
 .idea
+*.js
 node_modules
 dist
 admin/db.json

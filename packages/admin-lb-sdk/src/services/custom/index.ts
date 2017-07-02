@@ -1,6 +1,5 @@
 /* tslint:disable */
 export * from './Email';
-export * from './Core';
 export * from './StorageContainer';
 export * from './System';
 export * from './ContentEvent';
