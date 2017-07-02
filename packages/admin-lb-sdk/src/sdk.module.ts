@@ -24,8 +24,8 @@ export class SDKModule {
       ngModule  : SDKModule,
       providers: [
         ...SDK_PROVIDERS,
-        // platform agnostic just uses same storage provider for internal and sdk
         ...configuredProviders,
+        // platform agnostic just uses same storage provider for internal and sdk
         { provide: SDKStorage, useExisting: InternalStorage },
       ]
     };
