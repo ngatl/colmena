@@ -7,7 +7,8 @@ import { HttpModule } from '@angular/http'
 import { RouterModule } from '@angular/router'
 
 // Third party Modules
-import { LoopBackConfig, SDKBrowserModule } from '@colmena/admin-lb-sdk'
+import { LoopBackConfig, SocketIOToken, SDKBrowserModule } from '@colmena/admin-lb-sdk'
+import * as io from 'socket.io-client';
 
 // Local Modules
 import { ColmenaLayoutModule } from '@colmena/admin-layout'
@@ -27,6 +28,11 @@ import { AppComponent } from './app.component'
 import { NotFoundComponent } from './components/not-found/not-found.component'
 import { RouterComponent } from './components/router/router.component'
 
+// factories
+export function socketPluginFactory() {
+  return io;
+}
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -34,7 +40,10 @@ import { RouterComponent } from './components/router/router.component'
     HttpModule,
     RouterModule,
 
-    SDKBrowserModule.forRoot(),
+    SDKBrowserModule.forRoot([
+      // provide browser based socket plugin
+      { provide: SocketIOToken, useFactory: socketPluginFactory }
+    ]),
     ColmenaLayoutModule,
     ColmenaUiModule,
 
