@@ -1,5 +1,5 @@
 {
-  "name": "@colmena/admin-lb-sdk",
+  "name": "@colmena/admin-lb-sdk-ns",
   "version": "0.2.0",
   "publishConfig": {
     "access": "public"
