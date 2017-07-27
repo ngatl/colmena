@@ -55,8 +55,9 @@
     "upstream:merge": "git merge upstream/develop",
     "lint": "eslint . --fix",
     "postinstall": "lerna bootstrap",
-    "sdk": "npm run sdk:api",
+    "sdk": "npm run sdk:api && npm run sdk-ns:api",
     "sdk:api": "cd apps/api && npm run sdk",
+    "sdk-ns:api": "cd apps/api && npm run sdk-ns",
     "start": "cd apps/api && npm start",
     "test": "true",
     "update": "ncu -a && npm update && lerna exec 'ncu -a && npm update'"

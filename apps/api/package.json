@@ -29,6 +29,7 @@
     "dev": "nodemon",
     "initdb": "node bin/initdb",
     "sdk": "cross-env NODE_ENV=codegen lb-sdk --wipe enabled server/server.js ../../packages/admin-lb-sdk/src",
+    "sdk-ns": "cross-env NODE_ENV=codegen lb-sdk -d ng2native --wipe enabled server/server.js ../../packages/admin-lb-sdk-ns/src",
     "start": "node .",
     "test": "true"
   },
