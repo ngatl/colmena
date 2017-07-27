@@ -4,3 +4,6 @@ dist
 admin/db.json
 lerna-debug.log
 production.yaml
+packages/**/*.js
+npm-debug.log
+
