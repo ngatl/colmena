@@ -37,4 +37,30 @@ if (config.has('storage') && config.get('storage.path')) {
   }
 }
 
+if (config.has('tito') && config.get('tito.token')) {
+  log.magenta.b('[data-sources] Configure Tito API')
+  datasources['tito'] = {
+    name: 'tito',
+    connector: 'rest',
+    crud: false,
+    debug: true,
+    options: {
+      headers: {
+        Accept: 'application/vnd.api+json',
+        Authorization: `Token token=${config.get('tito.token')}`
+      },
+    },
+    operations: [{
+      template: {
+        method: 'GET',
+        url: 'https://api.tito.io/v2/ngatlconf/ngatl-2018/tickets',
+        responsePath: '$.data',
+      },
+      functions: {
+        tickets: []
+      }
+    }]
+  }
+}
+
 module.exports = datasources
