@@ -1,0 +1,33 @@
+{
+  "name": "ConferenceTicket",
+  "plural": "ConferenceTickets",
+  "description": "Conference: Manage Tickets in a Domain",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "forceId": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "required": true
+    }
+  },
+  "relations": {
+    "release": {
+      "type": "belongsTo",
+      "model": "ConferenceRelease",
+      "foreignKey": "conferenceReleaseId"
+    },
+    "registration": {
+      "type": "belongsTo",
+      "model": "ConferenceRegistration",
+      "foreignKey": "conferenceRegistrationId"
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

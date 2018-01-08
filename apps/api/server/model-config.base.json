@@ -23,9 +23,5 @@
   },
   "Email": {
     "dataSource": "mail"
-  },
-  "TitoApi": {
-    "dataSource": "tito",
-    "public": false
   }
 }

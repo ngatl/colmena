@@ -1,0 +1,21 @@
+{
+  "name": "ConferenceRegistration",
+  "plural": "ConferenceRegistrations",
+  "description": "Conference: Manage Registrations in a Domain",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "forceId": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "required": true
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

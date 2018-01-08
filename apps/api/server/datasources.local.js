@@ -53,11 +53,29 @@ if (config.has('tito') && config.get('tito.token')) {
     operations: [{
       template: {
         method: 'GET',
-        url: 'https://api.tito.io/v2/ngatlconf/ngatl-2018/tickets',
+        url: `https://api.tito.io/v2/${config.get('tito.account')}/${config.get('tito.event')}/tickets`,
         responsePath: '$.data',
       },
       functions: {
         tickets: []
+      }
+    }, {
+      template: {
+        method: 'GET',
+        url: `https://api.tito.io/v2/${config.get('tito.account')}/${config.get('tito.event')}/registrations`,
+        responsePath: '$.data',
+      },
+      functions: {
+        registrations: []
+      }
+    }, {
+      template: {
+        method: 'GET',
+        url: `https://api.tito.io/v2/${config.get('tito.account')}/${config.get('tito.event')}/releases`,
+        responsePath: '$.data',
+      },
+      functions: {
+        releases: []
       }
     }]
   }

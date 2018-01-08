@@ -32,6 +32,19 @@
         },
         "ConferenceSponsor": {
           "dataSource": "db"
+        },
+        "ConferenceTicket": {
+          "dataSource": "db"
+        },
+        "ConferenceRegistration": {
+          "dataSource": "db"
+        },
+        "ConferenceRelease": {
+          "dataSource": "db"
+        },
+        "TitoApi": {
+          "dataSource": "tito",
+          "public": false
         }
       },
       "sampleData": [
