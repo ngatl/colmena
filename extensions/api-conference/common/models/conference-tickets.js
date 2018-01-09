@@ -1,5 +1,5 @@
-'use strict';
-const { get }  = require('lodash')
+'use strict'
+const { get } = require('lodash')
 
 const disabledMethods = [
   'create',
@@ -17,16 +17,16 @@ const disabledMethods = [
   'update',
   'upsert',
   'upsertWithWhere',
-];
+]
 
 const lastPart = (str) => str.split('/').slice('-1')[0]
 
 const normalize = ticket => {
   const id = ticket.id
-  const conferenceRegistrationId = lastPart(get(ticket, 'relationships.registration.links.related'));
-  const conferenceReleaseId = lastPart(get(ticket, 'relationships.release.links.related'));
+  const conferenceRegistrationId = lastPart(get(ticket, 'relationships.registration.links.related'))
+  const conferenceReleaseId = lastPart(get(ticket, 'relationships.release.links.related'))
 
-  return Object.assign({} , { id, conferenceRegistrationId, conferenceReleaseId }, ticket.attributes)
+  return Object.assign({}, { id, conferenceRegistrationId, conferenceReleaseId }, ticket.attributes)
 }
 
 module.exports = function(ConferenceTicket) {
@@ -45,10 +45,10 @@ module.exports = function(ConferenceTicket) {
   })
 
   const findOrCreate = attendee => {
-    const { ConferenceAttendee } = ConferenceTicket.app.models;
+    const { ConferenceAttendee } = ConferenceTicket.app.models
 
     return ConferenceAttendee
-      .findOne({where: {email: attendee.email}})
+      .findOne({ where: { email: attendee.email } })
       .then(res => res ? res : ConferenceAttendee.create(attendee))
   }
 
@@ -86,10 +86,10 @@ module.exports = function(ConferenceTicket) {
   })
 
   ConferenceTicket.prototype.claim = function(confirm) {
-    const { ConferenceAttendee } = ConferenceTicket.app.models;
+    const { ConferenceAttendee } = ConferenceTicket.app.models
     return ConferenceAttendee.findById(this.conferenceAttendeeId)
       .then(attendee => {
-        if (!confirm || this.claimed ) {
+        if (!confirm || this.claimed) {
           return Promise.resolve({ claimed: this.claimed || false, confirm, attendee, newClaim: false })
         }
         return this.updateAttribute('claimed', new Date())
@@ -103,4 +103,18 @@ module.exports = function(ConferenceTicket) {
     http: { path: '/claim', verb: 'get' },
   })
 
-};
+  ConferenceTicket.prototype.unclaim = function() {
+    const { ConferenceAttendee } = ConferenceTicket.app.models
+    return ConferenceAttendee.findById(this.conferenceAttendeeId)
+      .then(attendee => {
+        return this.updateAttribute('claimed', false)
+          .then(() => Promise.resolve({ claimed: this.claimed, attendee, unClaimed: true }))
+      })
+  }
+
+  ConferenceTicket.remoteMethod('prototype.unclaim', {
+    returns: { arg: 'result', type: 'object', root: true },
+    http: { path: '/unclaim', verb: 'get' },
+  })
+
+}
