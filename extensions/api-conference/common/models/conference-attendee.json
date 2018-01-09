@@ -28,6 +28,9 @@
     },
     "phone": {
       "type": "String"
+    },
+    "tags": {
+      "type": "String"
     }
   },
   "relations": {

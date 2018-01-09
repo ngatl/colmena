@@ -56,6 +56,7 @@ module.exports = function(ConferenceTicket) {
     company: att['company-name'],
     email: att.email,
     name: att.name,
+    tags: att.tags,
     phone: att['phone-number'],
   })
 
