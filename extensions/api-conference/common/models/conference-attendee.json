@@ -1,0 +1,48 @@
+{
+  "name": "ConferenceAttendee",
+  "plural": "ConferenceAttendees",
+  "description": "Conference: Manage Attendees in a Domain",
+  "base": "ConferenceBaseModel",
+  "idInjection": true,
+  "forceId": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "required": true,
+      "defaultFn": "uuidv4"
+    },
+    "email": {
+      "type": "String",
+      "required": true
+    },
+    "name": {
+      "type": "String",
+      "required": true
+    },
+    "company": {
+      "type": "String"
+    },
+    "phone": {
+      "type": "String"
+    }
+  },
+  "relations": {
+    "tickets": {
+      "type": "hasMany",
+      "model": "ConferenceTicket",
+      "foreignKey": "conferenceAttendeeId"
+    },
+    "notes": {
+      "type": "hasMany",
+      "model": "ConferenceAttendeeNote",
+      "foreignKey": "conferenceAttendeeId"
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

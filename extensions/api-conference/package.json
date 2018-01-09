@@ -42,6 +42,12 @@
         "ConferenceRelease": {
           "dataSource": "db"
         },
+        "ConferenceAttendee": {
+          "dataSource": "db"
+        },
+        "ConferenceAttendeeNote": {
+          "dataSource": "db"
+        },
         "TitoApi": {
           "dataSource": "tito",
           "public": false

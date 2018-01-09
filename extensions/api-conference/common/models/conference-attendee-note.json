@@ -1,0 +1,47 @@
+{
+  "name": "ConferenceAttendeeNote",
+  "plural": "ConferenceAttendeeNotes",
+  "description": "Conference: Manage Attendees Notes in a Domain",
+  "base": "ConferenceBaseModel",
+  "idInjection": true,
+  "forceId": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "String",
+      "id": true,
+      "required": true,
+      "defaultFn": "uuidv4"
+    },
+    "peerAttendeeId": {
+      "type": "String",
+      "required": true
+    },
+    "note": {
+      "type": "String"
+    },
+    "audioUrl": {
+      "type": "String"
+    },
+    "imageUrl": {
+      "type": "String"
+    }
+  },
+  "relations": {
+    "attendee": {
+      "type": "belongsTo",
+      "model": "ConferenceAttendee",
+      "foreignKey": "conferenceAttendeeId"
+    },
+    "peer": {
+      "type": "belongsTo",
+      "model": "ConferenceAttendee",
+      "foreignKey": "peerAttendeeId"
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}
