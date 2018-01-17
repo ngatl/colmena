@@ -8,6 +8,13 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "Computed": {
+      "properties": {
+        "isSponsor": "isSponsor"
+      }
+    }
+  },
   "properties": {
     "id": {
       "type": "String",
@@ -23,6 +30,19 @@
       "type": "String",
       "required": true
     },
+    "firstName": {
+      "type": "String",
+      "required": false
+    },
+    "lastName": {
+      "type": "String",
+      "required": false
+    },
+    "password": {
+      "type": "String",
+      "required": true,
+      "defaultFn": "uuidv4"
+    },
     "company": {
       "type": "String"
     },
@@ -33,6 +53,12 @@
       "type": "String"
     }
   },
+  "hidden": [
+    "fullName",
+    "username",
+    "firstName",
+    "lastName"
+  ],
   "relations": {
     "tickets": {
       "type": "hasMany",

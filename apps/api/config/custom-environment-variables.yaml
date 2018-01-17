@@ -25,3 +25,6 @@ storage:
 system:
   initdb: INITDB
   migratedb: MIGRATEDB
+
+ngatl:
+  salt: NGATL_SALT

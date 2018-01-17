@@ -35,3 +35,6 @@ storage:
 system:
   initdb: false
   migratedb: false
+
+ngatl:
+  salt: false
