@@ -2,7 +2,7 @@
   "name": "ConferenceAttendee",
   "plural": "ConferenceAttendees",
   "description": "Conference: Manage Attendees in a Domain",
-  "base": "ConferenceBaseModel",
+  "base": "SystemUser",
   "idInjection": true,
   "forceId": true,
   "options": {
@@ -43,6 +43,17 @@
       "type": "hasMany",
       "model": "ConferenceAttendeeNote",
       "foreignKey": "conferenceAttendeeId"
+    },
+    "accessTokens": {
+      "type": "hasMany",
+      "model": "SystemAccessToken",
+      "polymorphic": {
+        "foreignKey": "userId",
+        "discriminator": "principalType"
+      },
+      "options": {
+        "disableInclude": false
+      }
     }
   },
   "validations": [],

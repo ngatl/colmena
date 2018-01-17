@@ -17,8 +17,12 @@
   "relations": {
     "user": {
       "type": "belongsTo",
-      "model": "SystemUser",
-      "foreignKey": "userId"
+      "idName": "id",
+      "polymorphic": {
+        "idType": "string",
+        "foreignKey": "userId",
+        "discriminator": "principalType"
+      }
     }
   },
   "acls": [

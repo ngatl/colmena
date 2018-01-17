@@ -63,7 +63,10 @@
     "accessTokens": {
       "type": "hasMany",
       "model": "SystemAccessToken",
-      "foreignKey": "userId",
+      "polymorphic": {
+        "foreignKey": "userId",
+        "discriminator": "principalType"
+      },
       "options": {
         "disableInclude": false
       }
