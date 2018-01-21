@@ -24,12 +24,22 @@ const disabledMethods = [
 
 const lastPart = (str) => str.split('/').slice('-1')[0]
 
+const generatePin = (input) => {
+  let generated = Math.pow(input, 5)
+  generated = generated.toString().replace(/0/g, 9).substring(3, 7)
+  return parseInt(generated, 10)
+}
+
 const normalize = ticket => {
   const id = ticket.id
   const conferenceRegistrationId = lastPart(get(ticket, 'relationships.registration.links.related'))
   const conferenceReleaseId = lastPart(get(ticket, 'relationships.release.links.related'))
-
-  return Object.assign({}, { id, conferenceRegistrationId, conferenceReleaseId }, ticket.attributes)
+  if (conferenceReleaseId && conferenceReleaseId === 'pribzn5zfui') {
+    ticket.attributes.email = 'sponsor@ng-atl.org'
+    ticket.attributes.pin = generatePin(ticket.attributes.number)
+  }
+  const result = Object.assign({}, { id, conferenceRegistrationId, conferenceReleaseId }, ticket.attributes)
+  return result
 }
 
 const getHash = id => CryptoJS.SHA256( id + config.get('ngatl.salt') ).toString()
@@ -58,6 +68,7 @@ module.exports = function(ConferenceTicket) {
     email: att.email.toLowerCase(),
     name: att.name,
     tags: att.tags,
+    pin: att.pin,
     phone: att['phone-number'],
   })
 
