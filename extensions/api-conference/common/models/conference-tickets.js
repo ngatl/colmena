@@ -35,7 +35,7 @@ const normalize = ticket => {
   const conferenceRegistrationId = lastPart(get(ticket, 'relationships.registration.links.related'))
   const conferenceReleaseId = lastPart(get(ticket, 'relationships.release.links.related'))
   if (conferenceReleaseId && conferenceReleaseId === 'pribzn5zfui') {
-    ticket.attributes.email = 'sponsor@ng-atl.org'
+    ticket.attributes.email = `sponsor${ticket.attributes.number}@ng-atl.org`
     ticket.attributes.pin = generatePin(ticket.attributes.number)
   }
   const result = Object.assign({}, { id, conferenceRegistrationId, conferenceReleaseId }, ticket.attributes)
