@@ -1,5 +1,761 @@
 {
   "ConferenceEvent": [
+    {
+      "id": "5a5fcee829ae9d311110550a",
+      "name": "Registration + Breakfast",
+      "duration": "1:30:00",
+      "date": "2018-02-01",
+      "startTime": "6:30:00 AM",
+      "endTime": "8:00:00 AM",
+      "type": "Registration + Breakfast"
+    },
+    {
+      "id": "5a5fcee829ae9d311110550b",
+      "name": "Zack Chapple, Stefanie Diaz + Maybe someone else",
+      "duration": "0:09:00",
+      "date": "2018-02-01",
+      "startTime": "8:00:00 AM",
+      "endTime": "8:09:00 AM",
+      "type": "Opening Remarks",
+      "room": "1",
+      "speaker": "Zack Chapple, Stefanie Diaz + Maybe someone else"
+    },
+    {
+      "id": "5a5fcee829ae9d311110550c",
+      "name": "Angular as strategy for collaboration and scale",
+      "duration": "0:30:00",
+      "date": "2018-02-01",
+      "startTime": "8:13:00 AM",
+      "endTime": "8:43:00 AM",
+      "type": "Keynote",
+      "room": "1",
+      "speaker": "Brad Green"
+    },
+    {
+      "id": "5a5fcee829ae9d311110550d",
+      "name": "Modern Testing Strategies for Reactive Applications",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "8:47:00 AM",
+      "endTime": "9:07:00 AM",
+      "type": "Talk",
+      "speaker": "Brandon Roberts"
+    },
+    {
+      "id": "5a5fcee829ae9d311110550e",
+      "name": "Contributing to the Angular Docs",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "9:11:00 AM",
+      "endTime": "9:31:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Kapunahele Wong"
+    },
+    {
+      "id": "5a5fcee829ae9d311110550f",
+      "name": "Coffee Break",
+      "duration": "0:15:00",
+      "date": "2018-02-01",
+      "startTime": "9:31:00 AM",
+      "endTime": "9:46:00 AM",
+      "type": "Coffee Break",
+      "room": "1"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105510",
+      "name": "Emotional Intelligence for Engineers",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "9:46:00 AM",
+      "endTime": "10:06:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "April Wensel"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105511",
+      "name": "Reactive Brain Waves",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "10:10:00 AM",
+      "endTime": "10:30:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Uri Shaked"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105512",
+      "name": "Dr. Michio Kaku",
+      "duration": "1:00:00",
+      "date": "2018-02-01",
+      "startTime": "10:34:00 AM",
+      "endTime": "11:34:00 AM",
+      "type": "Dr. Michio Kaku",
+      "speaker": "Dr. Michio Kaku"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105513",
+      "name": "Lunch & Book Signing (30 minutes)",
+      "duration": "1:00:00",
+      "date": "2018-02-01",
+      "startTime": "11:34:00 AM",
+      "endTime": "12:34:00 PM",
+      "type": "Lunch & Book Signing (30 minutes)"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105514",
+      "name": "Post Lunch Remarks",
+      "duration": "0:10:00",
+      "date": "2018-02-01",
+      "startTime": "12:34:00 PM",
+      "endTime": "12:44:00 PM",
+      "type": "Post Lunch Remarks",
+      "speaker": "Stefanie Diaz"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105515",
+      "name": "NativeScript and CodeSharing",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "12:48:00 PM",
+      "endTime": "1:08:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Nathan Walker"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105516",
+      "name": "Breaking Down Reactive Forms",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "1:12:00 PM",
+      "endTime": "1:32:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Bonnie Brennan & Samantha Rhodes"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105517",
+      "name": "JavaScript is the new metal: the cloud vs the browser",
+      "duration": "0:30:00",
+      "date": "2018-02-01",
+      "startTime": "1:36:00 PM",
+      "endTime": "2:06:00 PM",
+      "type": "Keynote",
+      "room": "1",
+      "speaker": "Scott Hanselman"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105518",
+      "name": "NBA + Angular = Game Detail",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "2:10:00 PM",
+      "endTime": "2:30:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Wylesha Rachel"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105519",
+      "name": "Logging, and Errors, and Metrics - Oh My!",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "2:34:00 PM",
+      "endTime": "2:54:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Chloe Condon"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551a",
+      "name": "Coffee Break",
+      "duration": "0:15:00",
+      "date": "2018-02-01",
+      "startTime": "2:54:00 PM",
+      "endTime": "3:09:00 PM",
+      "type": "Coffee Break",
+      "room": "1"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551b",
+      "name": "Sponsor Talk",
+      "duration": "0:02:00",
+      "date": "2018-02-01",
+      "startTime": "3:09:00 PM",
+      "endTime": "3:11:00 PM",
+      "type": "Sponsor Talk",
+      "speaker": "Progress"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551c",
+      "name": "Dissecting the architectural process for creating reusable angular components",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "3:15:00 PM",
+      "endTime": "3:35:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Rachita Joshi"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551d",
+      "name": "Stefanie Diaz",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "3:39:00 PM",
+      "endTime": "3:59:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Stefanie Diaz"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551e",
+      "name": "Faster Angular Applications",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "4:03:00 PM",
+      "endTime": "4:23:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Minko Gechev"
+    },
+    {
+      "id": "5a5fcee829ae9d311110551f",
+      "name": "Beyond the Angular CLI",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "4:27:00 PM",
+      "endTime": "4:47:00 PM",
+      "type": "Talk",
+      "speaker": "Mike Brocci"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105520",
+      "name": "Angular's User Authentication Tool Belt",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "4:51:00 PM",
+      "endTime": "5:11:00 PM",
+      "type": "Talk",
+      "speaker": "Ryan Chenkie & Kim Maida"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105521",
+      "name": "PWA All The Things!",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "5:15:00 PM",
+      "endTime": "5:35:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Tara Manicsic"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105522",
+      "name": "The parable of the blender",
+      "duration": "0:20:00",
+      "date": "2018-02-01",
+      "startTime": "5:39:00 PM",
+      "endTime": "5:59:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Randall Koutnik"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105523",
+      "name": "Day 1 Closing Remarks",
+      "duration": "0:10:00",
+      "date": "2018-02-01",
+      "startTime": "6:03:00 PM",
+      "endTime": "6:13:00 PM",
+      "type": "Day 1 Closing Remarks",
+      "speaker": "Stefanie Diaz"
+    },
 
+
+    {
+      "id": "5a5fcee829ae9d3111105524",
+      "name": "Breakfast",
+      "duration": "1:00:00",
+      "date": "2018-02-02",
+      "startTime": "7:00:00 AM",
+      "endTime": "8:00:00 AM",
+      "type": "Breakfast",
+      "speaker": "Breakfast"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105525",
+      "name": "Opening Remarks",
+      "duration": "0:10:00",
+      "date": "2018-02-02",
+      "startTime": "8:00:00 AM",
+      "endTime": "8:10:00 AM",
+      "type": "Opening Remarks",
+      "speaker": "Stefanie Diaz"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105526",
+      "name": "Deploying angular to the cloud",
+      "duration": "0:30:00",
+      "date": "2018-02-02",
+      "startTime": "8:14:00 AM",
+      "endTime": "8:44:00 AM",
+      "type": "Keynote",
+      "room": "1",
+      "speaker": "John Papa"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105527",
+      "name": "Recursive Forms, CVAs & Components",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "8:48:00 AM",
+      "endTime": "9:08:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Susan Goldblatt"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105528",
+      "name": "Universal.Power.Women",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "9:12:00 AM",
+      "endTime": "9:32:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Danielle Sheehan & Jason Jean"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105529",
+      "name": "Coffee Break",
+      "duration": "0:15:00",
+      "date": "2018-02-02",
+      "startTime": "9:36:00 AM",
+      "endTime": "9:51:00 AM",
+      "type": "Coffee Break",
+      "room": "1"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552a",
+      "name": "Sponsor Talk",
+      "duration": "0:02:00",
+      "date": "2018-02-02",
+      "startTime": "9:51:00 AM",
+      "endTime": "9:53:00 AM",
+      "type": "Sponsor Talk",
+      "room": "1",
+      "speaker": "Valor Software"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552b",
+      "name": "Try not to lose your marbles with RXJS",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "9:57:00 AM",
+      "endTime": "10:17:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Chaela Womack"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552c",
+      "name": "Smart Angular Elements. An Experiment",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "10:21:00 AM",
+      "endTime": "10:41:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Carmen Popoviciu"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552d",
+      "name": "Building VR Interfaces with Angular",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "10:45:00 AM",
+      "endTime": "11:05:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Erica Stanley"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552e",
+      "name": "3x3: Fresh Code Delivered, Three Times a Day",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "11:09:00 AM",
+      "endTime": "11:29:00 AM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Kamini Dandapani"
+    },
+    {
+      "id": "5a5fcee829ae9d311110552f",
+      "name": "Lunch",
+      "duration": "1:00:00",
+      "date": "2018-02-02",
+      "startTime": "11:29:00 AM",
+      "endTime": "12:29:00 PM",
+      "type": "Lunch",
+      "room": "1"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105530",
+      "name": "Post Lunch Remarks",
+      "duration": "0:10:00",
+      "date": "2018-02-02",
+      "startTime": "12:29:00 PM",
+      "endTime": "12:39:00 PM",
+      "type": "Post Lunch Remarks",
+      "room": "1",
+      "speaker": "Stefanie Diaz?"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105531",
+      "name": "Service Workers & Cows — a love story",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "12:43:00 PM",
+      "endTime": "1:03:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Alyssa Nicoll"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105532",
+      "name": "The dark side of tuning Angular performance",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "1:07:00 PM",
+      "endTime": "1:27:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Dmitry Shekhovtsov"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105533",
+      "name": "Machine Learning & Angular Testing w/ Dozn",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "1:31:00 PM",
+      "endTime": "1:51:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Jedi Weller & Paulina Gallo"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105534",
+      "name": "Live App Updates Without The App Store",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "1:55:00 PM",
+      "endTime": "2:15:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Sani Yusuf"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105535",
+      "name": "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "2:19:00 PM",
+      "endTime": "2:39:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Aimee Knight"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105536",
+      "name": "Coffee Break",
+      "duration": "0:15:00",
+      "date": "2018-02-02",
+      "startTime": "2:39:00 PM",
+      "endTime": "2:54:00 PM",
+      "type": "Coffee Break",
+      "room": "1"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105537",
+      "name": "Sponsor Talk",
+      "duration": "0:02:00",
+      "date": "2018-02-02",
+      "startTime": "2:54:00 PM",
+      "endTime": "2:56:00 PM",
+      "type": "Sponsor Talk",
+      "room": "1",
+      "speaker": "Web Junto"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105538",
+      "name": "Reactive Programming: Future-Proof Your Code",
+      "duration": "0:30:00",
+      "date": "2018-02-02",
+      "startTime": "3:00:00 PM",
+      "endTime": "3:30:00 PM",
+      "type": "Keynote",
+      "room": "1",
+      "speaker": "Tracy Lee"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105539",
+      "name": "I Don’t Do Non-Technical Talks",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "3:34:00 PM",
+      "endTime": "3:54:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Kim Crayton"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553a",
+      "name": "State management with ngrx",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "3:58:00 PM",
+      "endTime": "4:18:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Simona Cotin"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553b",
+      "name": "End the Test Engineer role: how cross-functionality leads to a better engineering process",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "4:22:00 PM",
+      "endTime": "4:42:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Meredith Bayne"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553c",
+      "name": "Webpack - Your New BFF",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "4:46:00 PM",
+      "endTime": "5:06:00 PM",
+      "type": "Talk",
+      "room": "1",
+      "speaker": "Jennifer Bland"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553d",
+      "name": "Sponsor Talk",
+      "duration": "0:02:00",
+      "date": "2018-02-02",
+      "startTime": "5:10:00 PM",
+      "endTime": "5:12:00 PM",
+      "type": "Sponsor Talk",
+      "room": "1",
+      "speaker": "Nodesource"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553e",
+      "name": "Panel",
+      "duration": "0:20:00",
+      "date": "2018-02-02",
+      "startTime": "5:16:00 PM",
+      "endTime": "5:36:00 PM",
+      "type": "Panel",
+      "room": "1",
+      "speaker": "All Speakers?"
+    },
+    {
+      "id": "5a5fcee829ae9d311110553f",
+      "name": "Day 2 closing remarks",
+      "duration": "0:10:00",
+      "date": "2018-02-02",
+      "startTime": "5:40:00 PM",
+      "endTime": "5:50:00 PM",
+      "type": "Day 2 closing remarks",
+      "room": "1",
+      "speaker": "Stefanie Diaz?"
+    },
+    {
+      "id": "5a5fcee829ae9d3111105540",
+      "name": "Prizes",
+      "duration": "0:30:00",
+      "date": "2018-02-02",
+      "startTime": "5:50:00 PM",
+      "endTime": "6:20:00 PM",
+      "type": "Prizes"
+    },
+
+
+
+    {
+      "id": "1l80dbyadkw",
+      "description": "\nLearn the basics of Node.js and how you can use it to create applications and streamline your development process. We explore what Node.js is, what it is not, how asynchronous programming works, how it interacts with the operating system and much much more. We also will be diving into package management and module creation. This workshop is all about giving you the tools and mental models you need in order to be successful in Node.js.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-30",
+      "name": "Node.js Fundamentals Workshop: 1 day"
+    }, {
+      "id": "1qxeyxfxde4",
+      "description": "If you are developer looking to broaden your knowledge on RxJS, this is the workshop for you. With a 3-part course, consisting of videos, in-person interaction, and post workshop support, rxworkshop offers the best resources to learn about RxJS 5 and observables in-depth. \n\nLed by Ben Lesh, you will learn how to use RxJS to manage common and complex async scenarios within an application, how to go about composing streams when thinking in functional reactive programming, and how to build an application using HTTP and WebSockets to accomplish a real time streaming application. \n",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "date": "2018-02-02",
+      "startTime": "9:30:00 AM",
+      "name": "RxWorkshop: 1 day"
+    }, {
+      "id": "9xlx-rbdtx4",
+      "description": "In this training, Pascal Precht will discuss template-driven and reactive forms, by creating an application that uses various form control types. We will learn how to use built-in validators, create our own custom validators and even custom form controls!",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Taming Forms in Angular: 1 day"
+    }, {
+      "id": "a1fgyyhemss",
+      "description": "Mark Pieszak guides us as we create a project using Universal. Topics will include best practices, pitfalls, performance considerations to name a few. Along with invaluable instruction, students will have major insights into how Universal works.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Getting started with Universal Workshop: 1 day"
+    }, {
+      "id": "ac8dmtqob-m",
+      "description": "Learn how to ship Angular applications with confidence by mastering testing through techniques that will make it easy to integrate it in your daily development. This workshop covers the concepts of testing configuration, unit tests and integrated tests. We’ll be exploring testing architectural patterns and how we can integrate tools such as Jasmine, Karma, Protractor and Angular Testing Utilities to achieve efficient and sustainable testing management. You’ll be able to write solid automated tests that will allow you to verify to a large extent that your application works as expected before it gets to the hands and eyes of your users. Primed with new knowledge, you’ll be able to implement effective testing management in Angular applications without thinking twice. What you’ll need: Understanding of the core concepts of Angular. Your own laptop - you will be hands-on building and testing code.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-30",
+      "name": "Ultimate Testing: Code You Can Trust Workshop: 1 day"
+    }, {
+      "id": "app2y7w0mry",
+      "description": "John Papa will help you learn how to work with data binding, build components and services, send and receive data to and from a server using Http, RxJS and observables, lazy load modules with routing, best practices you can employ in your applications, and much more! You'll also learn how to get up and running quickly with the Angular CLI. Bring your laptop, as you’ll be writing Angular code using what you learn in several hands-on exercises. What You’ll Learn: · ES2015/TypeScript core concepts · Getting started with the Angular CLI · Bootstrapping your application · The Role of Components · Using Decorators · Binding data to views · Input and output properties · Dependency injection and providers · Managing remote data calls using services · Http and RxJS Observables · Routing and page navigation · Lazy loading and route guards · Tips, tricks and best practices · More!",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Angular Workshop - RxJS/Observables, Http, Routing, Guards, Lazy Loading, Deploying: 1 day"
+    }, {
+      "id": "dxtr2kks1bm",
+      "description": "Do you want to get a jumpstart on developing with Angular so you can build robust Web applications? John Papa will help you learn how to work with data binding, build components and services, send and receive data to and from a server using Http, RxJS and observables, lazy load modules with routing, best practices you can employ in your applications, and much more! You'll also learn how to get up and running quickly with the Angular CLI. Bring your laptop, as you’ll be writing Angular code using what you learn in several hands-on exercises. What You’ll Learn: · ES2015/TypeScript core concepts · Getting started with the Angular CLI · Bootstrapping your application · The Role of Components · Using Decorators · Binding data to views · Input and output properties · Dependency injection and providers · Managing remote data calls using services · Http and RxJS Observables · Routing and page navigation · Lazy loading and route guards · Template-driven and reactive forms · Tips, tricks and best practices · More!",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Angular Fundamentals - Hands On: 1 day"
+    }, {
+      "id": "ep7nx0vlqmc",
+      "description": "Authentication and authorization for Angular apps can be a real pain. Thankfully Auth0 makes it really easy. In this workshop, Ryan Chenkie will show you how to get an end-to-end authentication and authorization solution working in your Angular app with Auth0. You’ll come away with a production-ready auth implementation and a ton of knowledge about how Auth0 can be used to take you even further with authentication and authorization as your app grows.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Painless Angular Authentication with Auth0 Workshop: 1 day"
+    }, {
+      "id": "fwggy2dtc-8",
+      "description": "The creator of NestJS, Kamil, will help you learn why NestJS will greatly increase your productivity when creating server-side applications built on top of Node.js. You’ll get familiar with the framework basics as well as more advanced techniques. Through this workshop, you will build the complete flow for a typical application, with RESTful APIs, WebSockets and GraphQL endpoints exposed.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-30",
+      "name": "Level up your Node.js application with Nest: Angular sugar on the server Workshop: 1 day"
+    }, {
+      "id": "gyqnph5rnui",
+      "description": "With a fundamental understanding of mobile app building we will now venture directly into rich code sharing with web apps in an Nx workspace. Armed with an understanding of how NativeScript interacts with Angular we can now gain an understanding of how NativeScript can take advantage of your existing web apps to reduce code amongst your whole team.\n",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "NativeScript with Nx for rich enterprise code sharing: 1 day"
+    }, {
+      "id": "k2voo94bxm",
+      "description": "Ever heard of Colmena? If not, you should definitely attend this workshop. Colmena is a modular platform for building full-stack applications in JavaScript. It consists of a REST API built on top of LoopBack and an Admin interface built in Angular. During this workshop we build our backend using Colmena. Next, we build a custom frontend, for example a website using Angular, a mobile app using Ionic or your own favorite framework. You will leave the workshop with a custom full-stack application, deployed to the cloud and ready to be extended.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Build a full-stack application with Colmena (API/Admin/Frontend): 1 day"
+    }, {
+      "id": "kvsulkgtrje",
+      "description": "Learn how to ship Angular applications with confidence by mastering testing through techniques that will make it easy to integrate it in your daily development. This workshop covers the concepts of testing configuration, unit tests and integrated tests. We’ll be exploring testing architectural patterns and how we can integrate tools such as Jasmine, Karma, Protractor and Angular Testing Utilities to achieve efficient and sustainable testing management. You’ll be able to write solid automated tests that will allow you to verify to a large extent that your application works as expected before it gets to the hands and eyes of your users. Primed with new knowledge, you’ll be able to implement effective testing management in Angular applications without thinking twice. What you’ll need: Understanding of the core concepts of Angular. Your own laptop - you will be hands-on building and testing code.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Ultimate Testing: Code You Can Trust Workshop: 1 day"
+    }, {
+      "id": "l4rkwpuv-fc",
+      "description": "One of the first things you learn about Node.js best practices is that everyone has a different opinion of what the best practices are. This workshop takes an objective look at how we structure, lay out, deploy, and ship our Node.js applications. We cover common pitfalls and how to avoid them, testing and code-coverage frameworks, performance tuning, and profiling node applications. We're going to move fast, break things, and figure how why. \n",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Node.js Best Practices Workshop: 1 day"
+    }, {
+      "id": "n-8gaqhv794",
+      "description": "So you’ve built an Angular app before? When launching your app, there are many major considerations you have to think of with Angular. Things like AOT, Lazy loading, and CSS management all need attention when shipping to production. There are many approaches and pitfalls when figuring out a production strategy that may seem intimidating and sometimes confusing. PatrickJS will guide us through to the end, showing us the way to fast, performant Angular apps.\n",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-30",
+      "name": "Production Ready Angular: 1 day"
+    }, {
+      "id": "oe6tlzrkr-a",
+      "description": "Let’s dive right into building a NativeScript for Angular iOS+Android app focusing on best practices for code organization and project setup. Angular provides an almost limitless amount of possibilities in various app architecture designs but to ease development and ensure great scalability we will want to focus on a specific battle tested setup which has been proven to succeed even under tight deadlines.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-30",
+      "name": "NativeScript for Angular Best Practices: 1 day"
+    }, {
+      "id": "rcjd7w2cta",
+      "description": "Chris Griffith offers an introduction to the Ionic framework. Built atop Angular and Apache Cordova, this framework gives developers an incredibly powerful set of mobile components to create app store-ready or progressive web apps.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Ionic Workshop: 1 day"
+    }, {
+      "id": "rnsgcs9oaj4",
+      "description": "Simona Cotin and Brian Clark share how getting started with Angular is now easier than ever ... said no one ever. Yet with the right toolset we too can create magic. When I code with Angular I can deploy to Azure within minutes.\n \nWe'll go through a simple development to production workflow. First we code with a little help from the Angular CLI. Then we build for production - Webpack to the rescue. We then push our code to Github and deploy it on Node to Azure. Mission accomplished, application is now up in the cloud! \n \nWe'll then learn how to create an API for our application in a serverless way and build a CICD pipeline in Azure. Finally, with the right tools for monitoring and alerting we'll stay on top of our application's health and performance. ",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "Code and Deploy Angular to the Azure Cloud: 1 day"
+    }, {
+      "id": "rvdhzfzmztq",
+      "description": "With easy, fun labs, Dominic Elm will help you learn why redux and ngrx is considered an essential library for modern Angular applications. Learn how redux works and why immutable data flows are crucial to predictable UX. Learn how ngrx brings reactive redux features to your Angular application and see how effects and facades work with asynchronous processes. See how easy it is to test your application logic and explore the redux time-travel features.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "State Management with ngrx: 1 day"
+    }, {
+      "id": "vrein7khp5s",
+      "description": "GraphQL is on its way in and has proven itself a worthy solution to a component based app future. Scott Moss will guide students through getting started with GraphQL and Angular. Topics include libraries to use, typescript + graphql, testing, and much more.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "date": "2018-01-31",
+      "name": "GraphQL and Angular: 1 day"
+    }, {
+      "id": "z7mnehtjrmy",
+      "description": "Whether you and your team need to build a shared codebase from your web apps to your native mobile apps or just desire to share code between native iOS and Android apps, Nathan Walker, Jen Looper and Nitish Dayal will provide an in-depth look at NativeScript for Angular development. NativeScript is an open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "name": "NativeScript Workshop: Day 1 of 2"
+    }, {
+      "id": "z7mnehtjrmy",
+      "description": "Whether you and your team need to build a shared codebase from your web apps to your native mobile apps or just desire to share code between native iOS and Android apps, Nathan Walker, Jen Looper and Nitish Dayal will provide an in-depth look at NativeScript for Angular development. NativeScript is an open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.",
+      "endTime": "4:30:00 PM",
+      "type": "Workshop",
+      "startTime": "9:30:00 AM",
+      "name": "NativeScript Workshop. Day 2 of 2 "
+    }
   ]
 }

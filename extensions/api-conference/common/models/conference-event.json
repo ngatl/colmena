@@ -23,6 +23,12 @@
     "date": {
       "type": "Date"
     },
+    "startTime": {
+      "type": "String"
+    },
+    "endTime": {
+      "type": "String"
+    },
     "location": {
       "type": "String"
     }

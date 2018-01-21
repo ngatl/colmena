@@ -1,16 +1,129 @@
 {
   "ConferenceSponsor": [
     {
-      "name": "IBM",
-      "level": "platinum"
+      "name": "ADP",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105541"
     },
     {
-      "name": "Microsoft",
-      "level": "gold"
+      "name": "GitHub",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105542"
     },
     {
-      "name": "StrongLoop",
-      "level": "silver"
+      "name": "Oasis Digital",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105543"
+    },
+    {
+      "name": "Progress",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105544"
+    },
+    {
+      "name": "Robert Half",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105545"
+    },
+    {
+      "name": "TSYS",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105546"
+    },
+    {
+      "name": "Valor Software",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105547"
+    },
+    {
+      "name": "Webjunto",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105548"
+    },
+    {
+      "name": "The Weather Company",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105549"
+    },
+    {
+      "name": "Jet Brains",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554a"
+    },
+    {
+      "name": "number8",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554b"
+    },
+    {
+      "name": "GrapeCity",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554c"
+    },
+    {
+      "name": "HiRez.io",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554d"
+    },
+    {
+      "name": "Keysight Technologies",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554e"
+    },
+    {
+      "name": "Ionic",
+      "level": "?",
+      "id": "5a5fcf3529ae9d311110554f"
+    },
+    {
+      "name": "Togther With Google",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105550"
+    },
+    {
+      "name": "Infragistics",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105551"
+    },
+    {
+      "name": "Google",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105552"
+    },
+    {
+      "name": "Slalom",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105553"
+    },
+    {
+      "name": "Ultimate Software",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105554"
+    },
+    {
+      "name": "This Dot",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105555"
+    },
+    {
+      "name": "31South",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105556"
+    },
+    {
+      "name": "Nodesource",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105557"
+    },
+    {
+      "name": "Equimedia",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105558"
+    },
+    {
+      "name": "ngrx",
+      "level": "?",
+      "id": "5a5fcf3529ae9d3111105559"
     }
   ]
 }
