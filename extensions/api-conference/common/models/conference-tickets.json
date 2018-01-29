@@ -44,7 +44,7 @@
       "principalType": "ROLE",
       "principalId": "$everyone",
       "permission": "ALLOW",
-      "property": "claim",
+      "property": ["claim", "unclaim"],
       "accessType": "*"
     },
     {
