@@ -41,6 +41,13 @@
       "permission": "DENY"
     },
     {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "claim",
+      "accessType": "*"
+    },
+    {
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "system-admin",
