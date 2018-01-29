@@ -592,7 +592,7 @@
 
     {
       "id": "1l80dbyadkw",
-      "description": "\nLearn the basics of Node.js and how you can use it to create applications and streamline your development process. We explore what Node.js is, what it is not, how asynchronous programming works, how it interacts with the operating system and much much more. We also will be diving into package management and module creation. This workshop is all about giving you the tools and mental models you need in order to be successful in Node.js.",
+      "description": "Learn the basics of Node.js and how you can use it to create applications and streamline your development process. We explore what Node.js is, what it is not, how asynchronous programming works, how it interacts with the operating system and much much more. We also will be diving into package management and module creation. This workshop is all about giving you the tools and mental models you need in order to be successful in Node.js.",
       "endTime": "4:30:00 PM",
       "type": "Workshop",
       "startTime": "9:30:00 AM",
@@ -750,7 +750,7 @@
       "startTime": "9:30:00 AM",
       "name": "NativeScript Workshop: Day 1 of 2"
     }, {
-      "id": "z7mnehtjrmy",
+      "id": "z7mnehtjrmys",
       "description": "Whether you and your team need to build a shared codebase from your web apps to your native mobile apps or just desire to share code between native iOS and Android apps, Nathan Walker, Jen Looper and Nitish Dayal will provide an in-depth look at NativeScript for Angular development. NativeScript is an open source framework for building truly native mobile apps with Angular, TypeScript or JavaScript.",
       "endTime": "4:30:00 PM",
       "type": "Workshop",

@@ -1,129 +1,174 @@
 {
   "ConferenceSponsor": [
     {
-      "name": "ADP",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105541"
+      "url": "https://auth0.com",
+      "sponsorType": "33cd9f6aa3354bb41b219c23da5dfecc",
+      "name": "Auth0",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a622c5115539d00010fd269_auth0.png",
+      "id": "auth0"
     },
     {
-      "name": "GitHub",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105542"
+      "url": "https://www.equimedia.co.uk/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Equimedia Limited",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a5e26e42c769a00019d3b68_equimedia.png",
+      "id": "equimedia-limited"
     },
     {
-      "name": "Oasis Digital",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105543"
+      "url": "https://github.com/ngrx/platform",
+      "sponsorType": "33cd9f6aa3354bb41b219c23da5dfecc",
+      "name": "ngrx",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a556f83c7613e00012cfd01_ngrx.png",
+      "id": "ngrx"
     },
     {
-      "name": "Progress",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105544"
+      "url": "https://www.themuse.com/companies/ultimatesoftware",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Ultimate Software",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a43ccd10a44cf0001f7c528_company-cmyk.png",
+      "id": "ultimate-software"
     },
     {
-      "name": "Robert Half",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105545"
+      "url": "https://nodesource.com/",
+      "sponsorType": "1dd549a26129258fbd64081d8ecb347b",
+      "name": "Nodesource",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a349190f22ae30001cac86f_wordmark-600.png",
+      "id": "nodesource",
+      "one-more-sponsor": "8f56ffd6c44c1266d3eb4b32d1771ac9"
     },
     {
-      "name": "TSYS",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105546"
+      "url": "https://www.slalom.com/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Slalom",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a32d421678f4d000131716b_image001.png",
+      "id": "slalom"
     },
     {
-      "name": "Valor Software",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105547"
+      "url": "https://www.google.com/",
+      "sponsorType": "69bfedb0c9a2f70faa74329bfa5e4c93",
+      "name": "Google",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a31654cd7d1bd00010acd74_google.png",
+      "id": "google",
+      "one-more-sponsor": "3fc248e2676f313ccaf1a0a63b72fff0"
     },
     {
-      "name": "Webjunto",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105548"
+      "url": "https://www.infragistics.com/",
+      "sponsorType": "dfd550c1a6d41c9cd026f36a7d933cb5",
+      "name": "Infragistics",
+      "id": "infragistics",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a2eccf889ff870001e04384_infragistics.jpg"
+    },
+    {
+      "sponsorType": "dfd550c1a6d41c9cd026f36a7d933cb5",
+      "name": "Together With Google",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a2eccbe829f2400010b43c2_customLogo.png",
+      "id": "together-with-google",
+      "url": "https://sites.google.com/site/togetherwithgdevelopers/home"
+    },
+    {
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Ionic",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a20a2fa3bc5300001dde00c_ionic.png",
+      "id": "ionic",
+      "url": "http://ionicframework.com/"
+    },
+    {
+      "url": "http://jobs.keysight.com/atl/#section-keysight-software-design-center",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Keysight Technologies",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a1e22d268e933000102e148_keysight.png",
+      "id": "keysight-technologies"
+    },
+    {
+      "url": "https://www.hirez.io/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "HiRez.io",
+      "id": "hirez-io",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a1329dda31b990001a9c115_hirez-logo.png"
+    },
+    {
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "GrapeCity",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a1314fa2673270001ea22c9_GC-logo_purple_780x90.png",
+      "id": "grapecity",
+      "url": "https://www.grapecity.com/en"
+    },
+    {
+      "url": "https://number8.com/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "number8",
+      "id": "number8",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a10879bf53f0400011b0d39_number8.png"
+    },
+    {
+      "url": "https://www.jetbrains.com/",
+      "name": "Jet Brains",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a0c62d38d1e180001c38418_jetbrains.png",
+      "id": "jet-brains",
+      "sponsorType": "dfd550c1a6d41c9cd026f36a7d933cb5"
     },
     {
       "name": "The Weather Company",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105549"
+      "id": "the-weather-company",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a0c62268ecc2000012f22a3_weather.png",
+      "url": "http://www.theweathercompany.com/",
+      "sponsorType": "fc89f29d224adebcb44396e8e8a38be8"
     },
     {
-      "name": "Jet Brains",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554a"
+      "url": "http://webjunto.com/",
+      "sponsorType": "1dd549a26129258fbd64081d8ecb347b",
+      "name": "Webjunto",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a0c6126f16f8200016b6579_webjunto.png",
+      "id": "web-junto"
     },
     {
-      "name": "number8",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554b"
+      "url": "http://valor-software.com/",
+      "sponsorType": "1dd549a26129258fbd64081d8ecb347b",
+      "name": "Valor Software",
+      "id": "valor-software",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f99f07ea359e0001078a2d_valor.png"
     },
     {
-      "name": "GrapeCity",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554c"
+      "url": "https://www.tsys.com/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "TSYS",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f99eea269fd60001399c95_tsys.png",
+      "id": "tsys"
     },
     {
-      "name": "HiRez.io",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554d"
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Robert Half Technology",
+      "id": "robert-half-technology",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f99ed678cc2d0001fde3a3_robert-half.png",
+      "url": "https://www.roberthalf.com/jobs/technology"
     },
     {
-      "name": "Keysight Technologies",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554e"
+      "url": "https://www.progress.com/",
+      "sponsorType": "1dd549a26129258fbd64081d8ecb347b",
+      "name": "Progress",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f99eb4ea359e00010789fd_progres.png",
+      "id": "progress"
     },
     {
-      "name": "Ionic",
-      "level": "?",
-      "id": "5a5fcf3529ae9d311110554f"
+      "url": "https://oasisdigital.com/",
+      "sponsorType": "10c920273b213931e3d20127df10a610",
+      "name": "Oasis Digital",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f998cfc9a5280001e4db6f_oasis.png",
+      "id": "oasis-digital"
     },
     {
-      "name": "Togther With Google",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105550"
+      "url": "https://github.com/",
+      "sponsorType": "33cd9f6aa3354bb41b219c23da5dfecc",
+      "name": "GitHub",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f9983378cc2d0001fde034_git.png",
+      "id": "github"
     },
     {
-      "name": "Infragistics",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105551"
-    },
-    {
-      "name": "Google",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105552"
-    },
-    {
-      "name": "Slalom",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105553"
-    },
-    {
-      "name": "Ultimate Software",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105554"
-    },
-    {
-      "name": "This Dot",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105555"
-    },
-    {
-      "name": "31South",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105556"
-    },
-    {
-      "name": "Nodesource",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105557"
-    },
-    {
-      "name": "Equimedia",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105558"
-    },
-    {
-      "name": "ngrx",
-      "level": "?",
-      "id": "5a5fcf3529ae9d3111105559"
+      "url": "https://www.adp.com/",
+      "sponsorType": "1dd549a26129258fbd64081d8ecb347b",
+      "name": "ADP",
+      "id": "adp",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59f994e1269fd60001399472_adp.png"
     }
   ]
 }

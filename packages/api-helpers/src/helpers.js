@@ -107,9 +107,13 @@ const importSampleFileSet = (app, set) => {
 }
 
 const importDataIntoModel = (Model, data) =>
-  Model.create(data).then(res =>
-    log.gray('[sample-data]', `${res.length} items for model`, Model.name)
-  )
+  Model.create(data)
+    .then(res =>
+      log.gray('[sample-data]', `${res.length} items for model`, Model.name)
+    )
+    .catch(err => {
+      log.red('[sample-data]', err)
+    })
 
 const importSampleDataSet = (app, set) =>
   Promise.all(

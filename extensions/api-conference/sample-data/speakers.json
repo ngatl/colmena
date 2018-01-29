@@ -1,49 +1,384 @@
 {
   "ConferenceSpeaker": [
     {
-      "name": "April Wensel",
-      "imageUrl": "https://pbs.twimg.com/profile_images/765309835445350404/PkyGpGVU.jpg",
-      "twitter": "aprilwensel"
+      "company": "LinkedIn",
+      "description": "Kamini is a Senior Director of Engineering at LinkedIn. She leads the Infrastructure and Productivity Engineering Team for the core flagship app for LinkedIn. Her team is responsible for developing tools and infrastructure to enable continuous development and deployment. She also leads the Women in Tech (WIT) Invest Program at LinkedIn which provides opportunities to accelerate women's careers. Prior to LinkedIn, Kamini spent 11 years at eBay, rising through the company from an engineer to leading and managing large engineering organizations. Throughout her career, Kamini has transformed Engineering, Tools, and Test organizations at several companies.",
+      "name": "Kamini Dandapani",
+      "id": "kamini-dandapani",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a5f699d7ec7470001130ab0_Kamini%20Headshot.PNG"
     },
     {
-      "name": "Ayşegül Yönet",
-      "imageUrl": "https://pbs.twimg.com/profile_images/700910026072788992/JptwMGva.jpg",
-      "twitter": "AysSomething"
+      "social": {
+        "twitter": "https://twitter.com/mgechev"
+      },
+      "company": "Rhyme.com",
+      "description": "Minko is co-founder of http://Rhyme.com and has a big passion for open source. He loves to experiment with theoretical computer science concepts and apply them in practice. Minko teaches, speaks and writes about JavaScript and Angular. Some of the projects he works on are his books “Switching to Angular”, codelyzer, the official Angular style guide, Angular Seed and many others.",
+      "name": "Minko Gechev",
+      "id": "minko-gechev",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a41d613a028fc00012ac9e1_minko.jpg"
     },
     {
-      "name": "Carmen Popoviciu",
-      "imageUrl": "https://pbs.twimg.com/profile_images/734378184918073348/j3bsV9Xk.jpg",
-      "twitter": "CarmenPopoviciu"
+      "social": {
+        "twitter": "https://twitter.com/danibsheehan"
+      },
+      "company": "Forbes",
+      "description": "Danielle is a Front-end Developer of the Forbes Article Page, graduate of the Grace Hopper Program at Fullstack Academy, and member of Tech Ladies. In her previous life, she attended both Trinity College Dublin and The University of North Carolina at Greensboro studying film theory and media. When not coding, she loves to travel (she just visited Iceland), visit museums, and read…as a true Ravenclaw does!",
+      "name": "Danielle Sheehan",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a36d41b2aad880001d29abc_danielle-sheehan.jpg",
+      "id": "danielle-sheehan"
     },
     {
-      "name": "Mike Brocchi",
-      "imageUrl": "https://pbs.twimg.com/profile_images/862142599548850176/e-moaKuq.jpg",
-      "twitter": "Brocco"
+      "social": {
+        "twitter": "https://twitter.com/FrozenPandaz"
+      },
+      "company": "Forbes",
+      "description": "Jason is the Lead Developer of the Forbes Article Page. He studied Mechanical Engineering at New Jersey Institute of Technology. He is also part of the Angular Universal Core Team, the author of @nguniversal/express-engine and helped design and implement building Universal apps with AngularCLI! He also enjoys watching a variety of TV shows and keeping up with the latest technology.",
+      "name": "Jason Jean",
+      "id": "jason-jean",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a36d3eef22ae30001caf5d6_jason-jean.jpg"
     },
     {
-      "name": "PatrickJS",
-      "imageUrl": "https://pbs.twimg.com/profile_images/812595124093874176/QmrpKncp.jpg",
-      "twitter": "gdi2290"
+      "social": {
+        "twitter": "https://twitter.com/UriShaked"
+      },
+      "description": "Uri Shaked is a Google Developer Expert for Web Technologies. He loves combining his passion for the web with his love for hardware electronics and robotics in challenging and amusing IoT projects, which he shares with the world in his blog, as well as travelling around the world and speaking in conferences and meetup. Among his interests are reverse engineering, hardware hacking, neuroscience, playing music and Salsa dancing.",
+      "name": "Uri Shaked",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a35ce8e3a08ae00019a6da0_uri.jpg",
+      "id": "uri-shaked"
     },
     {
-      "name": "Sherry List",
-      "imageUrl": "https://pbs.twimg.com/profile_images/719254379623223296/z-UttNAX.jpg",
-      "twitter": "sherrrylst"
+      "social": {
+        "twitter": "https://twitter.com/thestefaniediaz"
+      },
+      "name": "Stefanie Diaz",
+      "description": "Stefanie has spent the last two and a half years sharing her insights as well as compelling stories of Atlanta entrepreneurs as Host of the Mastermind Your Launch Podcast which generated over 130,000 unique listeners per episode and created more than 100 shows. In 2017, Stefanie founded WoE, Women Only Entrepreneurs; an event-based community for Atlanta lady bosses that can best be described as Ellen meets Oprah for women entrepreneurs. W.O.E. combines the lively spirit of a girls' night out with the soulful impact of inspiring interviews plus uplifting affirmations for an experience like no other. Recently named an Atlanta Startup Wonder Women by Hypepotamus, Stefanie’s impact on the Atlanta entrepreneurial community goes beyond WoE and the brand strategy work she does with her clients. She is a Community Organizer for 1 Million Cups Atlanta and a 2-time mentor at Techsquare Labs’ Atlanta Startup Battle.",
+      "company": "Women Only Entrepreneurs",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a32cdf19a5de90001dc71d0_Stefanie%20Diaz%20Headshot.jpg",
+      "id": "stefanie-diaz"
     },
     {
-      "name": "Tara Z. Manicsic",
-      "imageUrl": "https://pbs.twimg.com/profile_images/804714552101257216/zGh5YASm.jpg",
-      "twitter": "Tzmanics"
+      "social": {
+        "twitter": "https://twitter.com/paulpaultweets"
+      },
+      "company": "WebJunto",
+      "description": "Paulina is a kick ass software developer at Webjunto. She is an integral process for the day-to-day beyond building Webjunto’s hybrid mobile and web applications, providing insight to interns and teammates. She is always in the know and up to date on the latest updates in technology and how to apply them to Webjunto’s current projects. She enjoys the challenge of consistently opening her thought process to new avenues in order to productively search for solutions in a different way and implement those ideas. Due to her craving for creativity, hybrid technologies and Angular are not only her only technical obsession; her latest interests are native mobile development, game development, experimenting with a Raspberry Pi. You can catch her a giving talks about her love of technology, acting as an Assistant Organizer of the Ionic Philly Meetup, or working as a TA at Girl Develop It Philly and TechGirlz. When she isn’t coding, she can be found online playing games, playing with her cat Ozzy, or trying new and different types of food.\n",
+      "name": "Paulina Gallo",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a12ffc0306e7e0001fa6559_Paulina.jpg",
+      "id": "paulina-gallo"
     },
     {
+      "social": {
+        "twitter": "https://twitter.com/jedihacks"
+      },
+      "company": "WebJunto",
+      "description": "Jedi (Jedidiah) Weller is CO-CEO & Head of Technology at Webjunto, a Design & Development agency providing customized services across the glboe. In addition, Jedi is an entrepreneur, landlord, dog lover, and organizer of the Philadelphia Junto, one of the fastest growing meetups in Philly. Previously, Jedi has worked as Director of Operations @ Geekli.st in Silicon Valley, Unisys Corporation, Analytical Graphics Inc., and the Technological Institute of Crete, Greece. He serves on the board of Kitchen Cred, a Philadelphia non-profit 501(3)(c) that fosters youth through culinary exercises. He has been a speaker and mentor at technology events across the world, such as SXSW (Slashathon), The Web Summit (#hack4good Dublin), Duke University (#hackduke), and University of Penn (Penn Apps). ",
+      "name": "Jedi Weller",
+      "id": "jedi-weller",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a12ff178a21290001d832ac_Jedi.JPG"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/saniyusuf"
+      },
+      "company": "Haibrid",
+      "description": "Sani is the founder of Haibrid, a London-based consultancy that offers Ionic training & consultancy. Sani is also the co-organiser of Ionic UK & has spoken about Ionic on 4 continents. A published book author, Sani also recently created the first Ionic 3.0 course online VIA Lynda.COM. One of the things he is currently working on is UI.SCHOOL, an online school for engineers to learn front-end development. When he is not doing geeky stuff, he enjoys food tourism & paddle boarding on the ocean. ",
+      "name": "Sani Yusuf",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a12eea7864de000010d4a72_sani.jpg",
+      "id": "sani-yusuf"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/ChloeCondon"
+      },
+      "company": "Sentry",
+      "description": "Former musical theatre actress and Hackbright Academy graduate, Chloe is now a Developer Evangelist at Sentry. Perhaps the only engineer you'll meet who has been in \"Hairspray\", \"Xanadu\", and \"Jerry Springer: the Opera\"- she is passionate about bringing people with non-traditional backgrounds into the world of tech. If you're trying to place her face, yes- she's the young woman giving the awkward thumbs up in the \"What It's Like to be a Woman at a Tech Conference\" article (which she also wrote). A quick Google search of her will provide you with getting started with Docker videos, theatre reviews, tech blogs, and videos of her singing- enjoy!",
+      "name": "Chloe Condon",
+      "id": "chloe-condon",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a31c5db678f4d00013154ab_Headshot.jpeg"
+    },
+    {
+      "company": "Theoretical Physicist",
+      "description": "Dr. Michio Kaku is one of the most widely recognized figures in science in the world today. He is an internationally recognized authority in two areas. The first is Einstein’s unified field theory, which Kaku is attempting to complete. The other is to predict trends affecting business, commerce and finance based on the latest research in science.",
+      "name": "Dr. Michio Kaku",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/5a0c5c0f1a930500014f55f4_Dr.%20Michio%20Kaku.jpg",
+      "id": "dr-michio-kaku",
+      "social": {
+        "twitter": "https://twitter.com/michiokaku"
+      }
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/WyleshaRachell"
+      },
+      "company": "Turner Broadcasting | NBA.com",
+      "description": "Wylesha wrote her first line of code with custom Myspace pages for music artists while in college at LSU. Through ingenuity and a little reverse engineering, Wylesha taught herself the basic concepts of front-end development, and turned a profit in the process. It wasn’t until after she took her first Computer Science course her senior year, that she realized programming is what she wanted to do the rest of her life. After graduating with a Bachelors in Business Management, Wylesha moved to Atlanta and immersed herself in Software Engineering. She is currently on the tech team as a Sr. Engineer for NBA.com at Turner Broadcasting.",
+      "name": "Wylesha Rachell",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7a8b22019c0001c19943_Wylesha.jpg",
+      "id": "wylesha-rachell"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/ladyleet"
+      },
+      "company": "This Dot Labs",
+      "description": "Tracy is a Google Developer Expert, a Women Techmakers Lead, and on the RxJS Learning Team. She is the organizer of This.JavaScript, Modern Web, Contributor Days, Google Developer Group, and RxWorkshop. She is also Co-Founder of This Dot Labs, an elite consultancy helping teams build front end applications. You can find her on Twitter @ladyleet or at http://thisdot.co/labs.",
       "name": "Tracy Lee",
-      "imageUrl": "https://pbs.twimg.com/profile_images/821783522427834369/SOIW4xGP.jpg",
-      "twitter": "ladyleet"
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7a59605d4b0001f00373_Tracy.jpg",
+      "id": "tracy-lee"
     },
     {
-      "name": "Vanessa Yuenn",
-      "imageUrl": "https://pbs.twimg.com/profile_images/727130550524366848/kVZ-NWR6.jpg",
-      "twitter": "vanessayuenn"
+      "social": {
+        "twitter": "https://twitter.com/Tzmanics"
+      },
+      "company": "Progress",
+      "description": "Tara (@tzmanics) is a life-long student, teacher and maker. She has spent her career using Javascript on both back-end and front-end to create applications. In her free time she works in her community to educate and learn from other developers. Tara launched the Cincinnati Chapter of Women Who Code and Co-Chairs the Cincinnati branch of NodeSchool. Beyond code, she likes to make things with other materials (wool, solder, clay, etc.) and hike any mountain she can get to with her trusty sidekick, #toshmagosh.",
+      "name": "Tara Manicsic",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7a3eb6086d0001493607_Tara.jpg",
+      "id": "tara-manicsic"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/thatgoldblatt"
+      },
+      "company": "Google",
+      "description": "Bio Coming Soon",
+      "name": "Susan Goldblatt",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7a2e3eed770001eff6b8_Susan.jpg",
+      "id": "susan-goldblatt"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/simona_cotin"
+      },
+      "company": "Microsoft",
+      "description": "Bio Coming Soon",
+      "name": "Simona Cotin",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc79e722019c0001c19925_Simona.jpg",
+      "id": "simona-cotin"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/sherrylist"
+      },
+      "_draft": true,
+      "company": "Nordea",
+      "description": "Sherry is a front-end developer based in beautiful Copenhagen with over 10 years of experience in software engineering. She is also co-organizer of ngCopenhagen, GDG Copenhagen and ngVikings. She loves animals and supports many animal protection organisations.",
+      "name": "Sherry List",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc798f3eed770001eff677_Sherry.jpg",
+      "id": "sherry-list"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/shanselman"
+      },
+      "company": "Microsoft",
+      "description": "Scott is a web developer who has been blogging at https://hanselman.com for over a decade. He works in Open Source on ASP.NET and the Azure Cloud for Microsoft out of his home office in Portland, Oregon. Scott has three podcasts, http://hanselminutes.com for tech talk, http://thisdeveloperslife.com on developers' lives and loves, and http://ratchetandthegeek.com for pop culture and tech media. He's written a number of books and spoken in person to almost a half million developers worldwide.",
+      "name": "Scott Hanselman",
+      "id": "scott-hanselman",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7949b6086d00014935d6_Scott.jpg"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/SamLee_509"
+      },
+      "description": "Samantha Rhodes is the co-founder of Code Bridge Texas and a high school student in Houston, Texas. Along with her mom, Sam enjoys learning Angular and teaching it to others. In her free time, she enjoys running, teaching, volunteering, and learning new things.",
+      "name": "Samantha Rhodes",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc79203eed770001eff659_Samantha%20(1).jpg",
+      "id": "samantha-rhodes"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/ryanchenkie"
+      },
+      "company": "Auth0",
+      "description": "Ryan is a full-stack JavaScript developer and works mostly with Angular and Node. He's a Google Developer Expert, Developer Advocate at Auth0, and also runs Angularcasts.io, a screencast site offering end-to-end Angular and JavaScript training. Ryan is the author of Securing Angular Applications, a complete guide on how to lock down Angular apps.",
+      "name": "Ryan Chenkie",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc74b6605d4b0001f0023d_Ryan.jpeg",
+      "id": "ryan-chenkie"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/rkoutnik"
+      },
+      "company": "Netflix",
+      "description": "Randall is a senior software engineer at Netflix, building tools that wake up other Netflixers when things break. To offset that karma, he’s adopted a cat that wakes him up whenever a new JavaScript framework is released. He doesn’t get much sleep.",
+      "name": "Randall Koutnik",
+      "id": "randall-koutnik",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7493605d4b0001f00233_Randall.jpg"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/way2rach"
+      },
+      "description": "Rachita is a front-end developer with a deep interest in the front end architecture. With each talk, she wants to spread the message of doing it right the first time. She is a firm believer that time put into thinking about the architecture before writing code results in faster and more reliable code over time. From experience, she knows code written fast, but with no consideration for architecture is also buggy. :)",
+      "name": "Rachita Joshi",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7445605d4b0001f00231_Rachita.jpg",
+      "id": "rachita-joshi"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/wwwalkerrun"
+      },
+      "company": "nStudio LLC",
+      "description": "Nathan Ross Walker has enjoyed the opportunity to work in the web/mobile app development arena for over 15 years. His varied background rooted in the world of design and the arts provides him a unique approach to problem solving. Spending several years working across multiple industries including entertainment, audio/video production, manufacturing, b2b marketing, communications, and technology helped establish a focused sensibility with client needs.",
+      "name": "Nathan Walker",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc73c43eed770001eff574_Nathan.jpg",
+      "id": "nathan-walker"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/Brocco"
+      },
+      "company": "Rangle.io",
+      "description": "Mike has worked on Angular tooling before the Angular CLI was even an alpha release. He continued his work beyond the CLI into the next iteration of Angular tooling: Angular DevKit. Mike is a GDE who contributes to the Angular CLI and is also an instructor at egghead. Mike is passionate about writing quality code as well as teaching. Outside of development, Mike loves to spend time with his wife and two daughters.",
+      "name": "Mike Brocchi",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc73a9605d4b0001f0020c_Mike.jpg",
+      "id": "mike-brocchi"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/meredithjordyn"
+      },
+      "description": "Bio Coming Soon",
+      "name": "Meredith Bayne",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc72b8605d4b0001f001e4_Meredith.jpg",
+      "id": "meredith-bayne"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/KimCrayton1"
+      },
+      "company": "Kim Crayton LLC",
+      "description": "Bio Coming Soon",
+      "name": "Kim Crayton",
+      "id": "kim-crayton",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc72a5605d4b0001f001dd_KimCrayton.jpg"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/kapunahele"
+      },
+      "description": "Kapunahele likes explaining things and playing with electronics, especially broken ones. She also likes cooking, eating, and dancing the Native Hawaiian hula. She is a developer based in Richmond, Virginia and can usually be spotted gazing at the Angular docs.",
+      "name": "Kapunahele Wong",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc720a22019c0001c197a9_Kapunahele.jpg",
+      "id": "kapunahele-wong"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/John_Papa"
+      },
+      "company": "Microsoft",
+      "description": "John Papa is dedicated a father and husband, a Principal Developer Advocate with Microsoft, and an alumni of the Google Developer Expert, Microsoft RD and MVP programs. His passions are deploying and teaching modern web technologies, and enjoying everything Disney with his family. John is a co-host of the popular Adventures in Angular podcast, author of the Angular Style Guide, and many popular Pluralsight courses.",
+      "name": "John Papa",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc71c522019c0001c1978c_John.jpg",
+      "id": "john-papa"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/ratracegrad"
+      },
+      "company": "Stanley Black & Decker",
+      "description": "Jennifer Bland is a Senior Software Developer specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400″, published by IBM. She runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.",
+      "name": "Jennifer Bland",
+      "id": "jennifer-bland",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc7165605d4b0001f00199_JenniferBland.jpg"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/ericastanley"
+      },
+      "company": "SalesLoft",
+      "name": "Erica Stanley",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc711022019c0001c19768_erica_stanley.jpg",
+      "id": "erica-stanley",
+      "description": "Erica Stanley is an engineering manager at SalesLoft – where she’s helping grow the product engineering team for one the Southeast’s fastest growing SaaS companies. She holds a B.S and M.S in Computer Science from Clark Atlanta University and conducted post-graduate research at the University of North Carolina at Chapel Hill. Always eager to explore and push boundaries in tech, Erica has worked in various areas of technology, including web, mobile, augmented and virtual reality, artificial intelligence and human-centered computing. Erica is active in the Atlanta technology community. She helps develop and teach youth coding programs, speaks at local hackathons, conferences, and user groups. She also founded the Atlanta network of Women Who Code, where she leads new developer workshops and organizes monthly tech talks, hack nights, and networking events for women technologists."
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/valorkin"
+      },
+      "company": "Valor Software",
+      "name": "Dmitriy Shekhovtsov",
+      "id": "dmitriy-shekhovtsov",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc711ab8ca44000134c6fd_Dmitri.jpg",
+      "description": "Bio Coming Soon"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/chawomack"
+      },
+      "company": "CareerBuilder",
+      "description": "Chaela is a native to Georgia. She attended Kennesaw State University and earned a bachelor's in computer science. Chaela has a love for JavaScript and currently works as a software engineer for Careerbuilder.",
+      "name": "Chaela Womack",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6b47b6086d000149332e_Chaela.jpg",
+      "id": "chaela-womack"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/CarmenPopoviciu"
+      },
+      "description": "Carmen is a front-end engineer who likes writing code and solving challenging puzzles. She's currently working towards undertaking the path of Artificial Neural Networks and Machine Learning ... all one step at a time. If she had superpowers, she would smiley all the things.",
+      "name": "Carmen Popoviciu",
+      "id": "carmen-popoviciu",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6b22cba6e2000196761e_Carmen.jpg"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/brandontroberts"
+      },
+      "company": "Synapse Wireless",
+      "description": "Brandon is a Senior Software Engineer for Synapse Wireless building web applications for Industrial IoT. He is a natural born troubleshooter and is passionate about writing good documentation to help developers. He is a core contributor to the NgRx project.",
+      "name": "Brandon Roberts",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6a2b605d4b0001f00041_Brandon.jpg",
+      "id": "brandon-roberts"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/bradlygreen"
+      },
+      "company": "Google",
+      "description": "Brad Green is an Engineering Director at Google where he manages that Angular Framework, Google's internal CRM suite, and other internal development productivity tools. He lives in Mountain View, CA with two kids and four chickens",
+      "name": "Brad Green",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6758b6086d00014932ca_Brad.jpg",
+      "id": "brad-green"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/bonnster75"
+      },
+      "description": "Bonnie Brennan is the founder of the ngHouston Angular Meetup. Along with her teenage daughter, she also co-founded Code Bridge Texas, where together they plan and teach free programming workshops for girls and women. Bonnie has been writing and teaching Angular since 2013 and is passionate about code quality, continuing education, and empowering others who want to learn.",
+      "name": "Bonnie Brennan",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6747b6086d00014932c3_Bonnie.jpg",
+      "id": "bonnie-brennan"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/aprilwensel"
+      },
+      "company": "Compassionate Coding",
+      "description": "April Wensel is the founder of Compassionate Coding, a social enterprise that offers coaching and training to empower individuals and teams to cultivate sustainable and human-­centered agile software development practices. She has spent the past decade in software engineering and technical leadership roles at various Silicon Valley startups. She also mentors widely and volunteers with organizations like Black Girls Code and Hackbright Academy to advance diversity in the software industry. When not coding, she enjoys writing, running marathons, and cooking vegan food.",
+      "name": "April Wensel",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc6707605d4b0001efffe0_April.jpg",
+      "id": "april-wensel"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/AlyssaNicoll"
+      },
+      "description": "I'm an Angular Developer Advocate for Kendo UI & GDE. I’ve spoken at over 20 conferences Internationally, specializing in motivational soft talks. I'm a weekly panelist on Adventures in Angular and Angular Air, which have a combined following of over 16,000 listeners. I enjoy gaming, scuba diving, and have a toothless dog named Gummy. My DM is always open, come talk sometime.",
+      "name": "Alyssa Nicoll",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc66d822019c0001c195cd_Alyssa.jpg",
+      "id": "alyssa-nicoll"
+    },
+    {
+      "social": {
+        "twitter": "https://twitter.com/Aimee_Knight"
+      },
+      "company": "Built Technologies",
+      "description": "Aimee Knight is a former figure skater, graduate of the Nashville Software School, software engineer for Built Technologies. Outside of work, she’s a weekly panelist on the JavaScript Jabber podcast, and she regularly participates in a variety of others. In her spare time, she enjoys speaking at conferences, playing with new technology, running, working out, or trying the latest flavor of Kombucha.",
+      "name": "Aimee Knight",
+      "id": "aimee-knight",
+      "imageUrl": "https://daks2k3a4ib2z.cloudfront.net/59f85d8ca38c420001ebea6f/59fc66b6b6086d00014932a2_Aimee.jpg"
     }
   ]
 }
