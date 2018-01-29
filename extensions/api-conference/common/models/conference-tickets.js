@@ -106,7 +106,7 @@ module.exports = function(ConferenceTicket) {
   ConferenceTicket.extractAll = () => ConferenceTicket
     .find()
     .then(items => items
-      .filter(item => item.email)
+      .filter(item => item.email && item.email !== null && item.email !== '' && item.name && item.name !== null && item.name !== '')
     )
     .then(items => Promise.each(items, item => item.extract()))
 

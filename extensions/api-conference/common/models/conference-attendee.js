@@ -8,6 +8,10 @@ module.exports = function(ConferenceAttendee) {
     if (ctx.instance && !ctx.instance.username && ctx.instance.email) {
       ctx.instance.username = ctx.instance.email
     }
+    if (ctx.instance && !ctx.instance.name && ctx.instance.email) {
+      console.log('No name found for: ', ctx.instance )
+      ctx.instance.name = ctx.instance.email
+    }
     next()
   })
 

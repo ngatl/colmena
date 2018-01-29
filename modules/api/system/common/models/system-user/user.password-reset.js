@@ -22,7 +22,10 @@ module.exports = function userPasswordReset(User) {
 
   User.sendPasswordResetMessage = function sendPasswordResetMessage(ctx) {
     // We first retrieve the domain based on the realm to get the reply-to email and name
-    return User.app.models.Domain
+    if (ctx.user.realm === undefined || ctx.user.realm === null) {
+      ctx.user.realm = 'default'
+    }
+    return User.app.models.SystemDomain
       .findById(ctx.user.realm)
       .then(domain => {
         // This is the access token we will send to the user
@@ -43,7 +46,7 @@ module.exports = function userPasswordReset(User) {
 
         // This is the message that is composed
         const message = {
-          to: `"${ctx.user.fullName()}" <${ctx.email}>`,
+          to: `"${ctx.user.fullName}" <${ctx.email}>`,
           from: domain.email,
           subject: `Reset your ${domain.name} password`,
           html: User._template_passwordResetHtml()(mailVars),
