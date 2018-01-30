@@ -1,4 +1,5 @@
 'use strict';
+const { orderBy } = require('lodash')
 
 module.exports = function(ConferenceAttendee) {
 
@@ -46,4 +47,18 @@ module.exports = function(ConferenceAttendee) {
     http: { path: '/sponsorNotes', verb: 'get' },
   })
 
+  ConferenceAttendee.notesStats = () => {
+    return ConferenceAttendee.find({ include: 'notes' })
+      .then(attendees => attendees.map(attendee => {
+        attendee.notesCount = attendee.notes().length
+        return attendee
+      }))
+      .then(attendees => attendees.filter(attendee => attendee.notesCount > 0))
+      .then((res) => orderBy(res, 'notesCount', 'desc'))
+  }
+
+  ConferenceAttendee.remoteMethod('notesStats', {
+    returns: { arg: 'result', type: 'object', root: true },
+    http: { path: '/notesStats', verb: 'get' },
+  })
 };
